@@ -1,0 +1,22 @@
+Позволяет раньше узнать о том что сервис отъебнул и
+принять меры (например, перестать ждать ответа от такого сервиса
+и тратить ресурсы)
+
+circuit - функция которая работает с сервисом
+breaker - закрыватель с аналогичной circuit сигнатурой
+
+
+Breaker can have two states. In the closed state everything is functioning normally. 
+All requests received from the client by Breaker are forwarded unchanged to Circuit, 
+and all responses from Circuit are forwarded back to the client. 
+In the open state, Breaker doesn’t forward requests to Circuit. 
+Instead it “fails fast” by responding with an informative error message.
+Breaker internally tracks the errors returned by Circuit; 
+if the number of consecutive errors returned by Circuit returns exceeds a defined threshold, 
+Breaker trips and its state switches to open.
+Most implementations of Circuit Breaker include some logic to automatically close the circuit after some period of time. 
+Keep in mind, though, that hammering an already malfunctioning service with lots of retries 
+can cause its own problems, so it’s standard to include some kind of backoff, 
+in which the rate of retries is slowly decreased over time.
+In a multi-node service, this implementation may be extended to include some 
+shared storage mechanism, such Memcached or Redis network cache, to track the circuit state.

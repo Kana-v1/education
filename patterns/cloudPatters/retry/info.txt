@@ -1,0 +1,8 @@
+Повторяет операцию которая зафейлилась, тем самым позволяя не завалить программу если 
+операция зафейлилась по рандомным причинам (слишком долго шли данные при апи коле, например)
+
+Состоит из:
+
+ - Effector -> The function that interacts with the service
+ - Retry -> A function that accepts Effector and 
+            returns a closure with the same function signature as Effector

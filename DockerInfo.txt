@@ -1,0 +1,91 @@
+IMAGE -  объект, который хранит файловую систему ОС, приложение и все его зависимости. Можно думать про него как про класс.
+PULLING - getting images onto docker (cmd: docker image pull)
+sudo usermod -aG docker <userName> - add user to not using sudo
+
+docker container run -d -it image_name: dcr - tells docker deamon to start new container; -it - start container iteractive and attach the current shell to the container's terminal; -d - run in background
+
+CTRL-PQ - leave container without killing it 
+
+docker container exec -it gracious_nightingale bash || docker container attach- connect to existing container
+
+docker container stop gracious_nightingale - kill container
+
+docker image build -t name - build image with name from dockerfile
+
+
+runc - собирает контейнеры
+containerd - executing containers and lifecycle operations (start, stop, pause, rm), для других проектов(типа кубернетеса) он еще умеет пулить имеджи, пушить их и т.д.
+shim - парент для контейнера. contaunerd создает новый runc для создания контейнера, при этом runc удаляется при создании контейнера и парентом такого контейнера становится shim. Он держит каналы запи си/чтения открытыми чтобы если демон упадет контейнер продолжал работать и передает статус демону при закрытии конейтнера
+
+
+docker search --limit [0,100] <imageName> --filter "is-official=true"- search for images in the DockerHub
+
+docker image inspect <imageName> - inspect image
+docker image history <imageName> - image history
+docker manifest inspect <imageName> (| grep 'architecture\|os' - to show only these parameters)- check image manifacture list 
+
+docker image rm $(docker image ls -q) -f - delete all images
+docker image tag <oldTag> <newTag> - rename image tag
+
+docker container stop - stop the container 
+docker container start - resume the  container
+docker container rm - remove container
+docker container run --name <someName> -it --restart <always/unless-stopped/on-failed> - start container with restarting policy (unless-stopped does not restart container when the daemon restarts; 
+docker container inspect - inspecting container
+
+
+volume - контейнеры должны быть не изменяемыми, поэтому для их изменения были придуманы volume, которые во время рантайма могут быть законнекчены
+
+docker run .. -p 80:8080: 80 - host port; 8080 - port inside the container (EXPOSE 8080)
+
+Поскольку RUN создает новый слой то по возможности стоит несколько команд писать в один ран (&&; /)
+
+Use no-install-recommends for linux apt manager
+
+docker-compose: 
+-version: обязательный, определяет версию Compose file (не самого докера, или docker compose)
+-services: определяет микросервисы
+-networks: создает нетворки. По дефолту будет создан мостовой нетворк, который позволит коннектить контейнеры на один и тот же докер хост. 
+-volumes: ...
+
+services: "redis", "mysql", etc - just container name
+build - откуда взять докерфайл для билда
+command - какой файл запустить как главную апку
+ports - какой порт внутри докера (-target) к какому снаружи законнектить (published)
+networks - какой нетворк законектить к сервису. Нетворк уже должен существовать
+volumes - монтирует volume (source:) к /code(target) внутри контейнераю. Вольюм должен существовать
+
+docker-compose up -d(to run in background) &(to run in foreground)- build docker compose
+docker-compose down - stop compose
+необходимы вольюмы докер сам будет создавать, но можно их имена явно задавать
+
+чтобы на лету поменять файл в контенйре:
+1) проинспектировать вольюм этого контейнера
+2) скопировать файл в эту директорию
+
+CNM(container network model) - спека архитектуры нетворков для контейнеров
+libnetwork - имплементация cnm который используется в докере (control & managment)
+drivers - расширяют модель имплементацией специальных топологий нетворка (VXLAN overlay network) (data)
+
+sandbox - isolated network stack (ethernet intefaces, ports, routing tables, DNS config)
+endpoints - connect sendbox to a network
+network - software implementation of as swith
+
+Эндпоинты могут быть законнечнены только к 1 нетворку
+
+docker network create -d bridge localnet - create network
+
+default bridge network does not contain ping by name
+
+
+Overlay networks - один нетворк на несколько хостов
+control plane traffic - кластер менеджмента траффика
+data plane traffic - траффик аппки
+
+docker container ... --mount source=bizvol, targer=/vol -> this means mount volume called bizvol to the current container which leaves in /vol folder
+
+
+
+
+
+
