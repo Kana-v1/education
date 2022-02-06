@@ -1,2 +1,9 @@
 позволяет пересать ждать ответа если понятно что ответ может и не прийти
 
+Participiants :
+ - Client - client 
+ - SlowFunction - long-running function 
+ - Timeout - wrapper that implements timeout logic
+
+ в го обычно просто контекстом рубят
+ 

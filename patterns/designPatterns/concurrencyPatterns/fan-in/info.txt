@@ -1,0 +1,6 @@
+слить данные из нескольких каналов в один
+
+Participants:
+- Sources - набор imput каналов
+- Destination - набор output каналов
+- Funnel - собственно функция
