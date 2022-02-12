@@ -31,3 +31,50 @@ pod health:
 Probes определяет живой под или нет. Они (пробы) есть 2 видов:
  - Lineness probe - is it alive? 
  - Readiness probe - determine if a pod should receive requests
+ 
+ RepicaSet - императивный способ управлять подами. 
+ Deployment - декларативный(через yml) способ управлять подами через ReplicaSet под капотом
+ 
+ Шо умеет реплика:
+  - хилить поды
+  - считает количество подов
+  - provide fault-tolerance
+  - может быть использована для того чтобы увеличить количество подов
+  - полагается на pod template
+Как результат, нет необходимости создавать поды напрямую, это можно делать через реплику и она часто используется для деплоя
+ 
+ Шо делает Deployment:
+ - управляет подами через реплику
+ - скейлит реплику, а она скейлит поды
+ - уменьшает время простоя до 0 при обновлениях тем что убивает и поднимает реплику
+ - добавляет ролбек фичи
+ - генерирует уникальный лейблы для реплик
+
+create a deployment: 
+ kubectl create -f file.deployment.yml --save-config
+ 
+apply changes: 
+ kubectl apply -f file.deployment.yml --save-config
+ 
+ kubectl get deployment(s)
+ 
+ kubectl get deployment --show-labels
+ 
+ kubectl get deployment -l app=nginx
+ 
+ kubectl delete deployment <deploymentName>
+ 
+ Scale the deployment pods to 5: 
+ Скейл == увеличить количество подов
+ 
+kubectl scale deployment <deploymenName> --replicas=5 OR 
+kubectl scale -f file.deployment.yml --replicas=5
+
+Какие опции доступны для апдейта подов чтобы об этом не узнали конечные юзеры:
+ - Rolling updates => поднимает под с новой версией, переключается на него и удаляет старый под. И так для каждого пода в кластере (kubectl apply -f file.deployment.yml)
+ - Blue-green deployment
+ - Canary deployments;
+ - Rollbacks;
+ 
+
+ 

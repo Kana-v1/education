@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: # metadata about the Deployment
+  name: frontend
+  labels: # labels use for quetying   multiple resourses. create ur own label field
+    app: nginx
+    tier: frontend
+spec: # Deployment spec
+  replicas: 2
+  minReadySeconds: 10 # wait for the pod to make sure that the container hasn't crashed for 10 seconds and after that we ready to get traffic
+  selector: # selector is used to select the template to use (bases on labels)
+    matchLabels:
+      tier: frontend
+  template: # template to use to create the Pod/Containers (select matches the label)
+    metadata:
+      labels:
+        tier: frontend
+    spec: # pod spec
+      containers:
+        - name: nginx
+          image: nginx:alpine
+          livenessProbe:
+            httpGet:
+              path: /index.html
+              port: 80
+          resources:
+            limits:
+              memory: "128Mi" # 128 MB
+              cpu: "200m" # 200 millicput (.2cpu or 20% of the cpu)
