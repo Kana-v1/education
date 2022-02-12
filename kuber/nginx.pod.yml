@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+   app: nginx
+   rel: stable
+
+  # annotations created under the hood in case of  using save-config flag 
+  # annotations:
+  #   kubectl.kubernetes.io/last-applied-configuration:
+  #    {"apiVersion":"v1", "kind":"Pod",
+  #     "metadata":{
+  #       "name":"nginx",
+  #       ...
+  #     }}
+spec:
+  containers:
+  - name: nginx
+    image: nginx:alpine 
+    livenessProbe: #define Probe
+     httpGet: 
+      path: /index.html #check index.html on port 80
+      port: 80
+     initialDelaySeconds: 15 # wait 15 seconds after container start for the check
+     timeoutSeconds: 2  # wait 2 seconds for the response 
+     periodSeconds: 5 # check every 5 seconds
+     failureThreshold: 1 # allow 1 failure before failing the pod 
+    ports:
+    - containerPort: 80
+    readinessProbe:
+     httpGet:
+      path: /index.html
+      port: 80
+     initialDelaySeconds: 3
+     periodSeconds: 5

@@ -1,0 +1,33 @@
+Kuber -> Nodes -> pods 
+
+Nodes - сервер или вм. Несколько нодов = кластер
+
+В каждом ноде есть под (Pod). Под - это способ захостить контейнер, обертка над контейнером (или контейнерами)
+
+kubectl delete pod - застрелит под, но вернет его при необходимости(  kubectl get all вернет этот под но уже под другим ид)
+
+kubectl delete deployment - удалит как этого все ожидают
+
+
+yml: 
+kind -> type kubernetes resource
+spec -> specification about what is going on in this pod
+
+kubecrl create --filename file.pod.yml
+
+create or apply changes to a pod from yaml:
+kubectl apply -f file.pod.yml
+
+use --save-config when u want to use kubectl apply in the future. It will create annotation and check if new settigns override otherone that saved in annotaion (kubectl get pod <podName> -o yaml): 
+kubectl create -f file.pod.yml --save-config
+
+check pod history and basic info:
+kubectl describe pod <podName>
+
+run bash inside the pod:
+kubecrl exec <podName> -it sh
+
+pod health:
+Probes определяет живой под или нет. Они (пробы) есть 2 видов:
+ - Lineness probe - is it alive? 
+ - Readiness probe - determine if a pod should receive requests
