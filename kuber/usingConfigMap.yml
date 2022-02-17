@@ -1,0 +1,32 @@
+- apiVersion: apps/v1
+  #...
+  spec:
+    template: 
+      #...
+    - spec:
+      containers: #...
+      env:
+      - name: ENEMIES
+      valueFrom:
+        configMapRef:
+          name: app-settings # ConfigMap name
+          key: enemies # key from ConfigMap file
+    - spec: # get configMap as a volume
+      volumes: 
+        - name: app-settings-vol
+          configMap:
+            name: app-settings
+      containers:
+        volumeMounts:
+          - name: app-config-vol
+            mountPath: /etc/config # path for each ConfigMap volume
+
+
+# ConfigMap
+
+- apiVersion: v1
+  kind: ConfigMap
+  metadata:
+    name: app-settings
+  data:
+    enemies: aliens
