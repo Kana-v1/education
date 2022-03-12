@@ -26,3 +26,27 @@ Network Access Control List - проверяет какой айпишник п�
  
  NAT Gateway - позволяет сущностям внутри впс взаимодействовать с внешним миром. Это можно сделать и без него если включить автонастройку ИП для новых сущностей внутри впс(network -> actions -> edit subnet settings -> enable auto assign public ipv4 address), но так секьюрнее (и дороже... намного дороже)
  
+ ====================
+Elastic Compute Cloud(ec2) - просто виртуалка, у которой есть память, цпу, нетворк. На нее можно установить любую ос.  
+Amazon Machine Image (AMI) - операционная система и софт, который установлен в ес2. 
+Elastic Block Store(EBS) - independent storage volumes used with ec2 instances. По сути память для ес2, которая еще и независимая(можно ее кидать с одного ес2 на другой)
+ 
+Elastic ip - публичные ИП адреса, который создаются, уничтожаются и присваиваются автоматически. Позволяет достучаться до ес2 из внешнего мира без настройки "автоматическое назначение ип адресов" (elastic ip addresses -> actions -> associate elastic ip address)
+ 
+Подключение с ес2 через ssh: ssh -i <per-file> ec2-user@<ec2-ip>; где ec2-user - default username to connect to the ec2 instance
+
+======================
+Auto Scaling Group -  увеличивает или уменьшает количетсов инстансов, основываясь на заранее определенных правилах. Чтобы его настроить дополнительно нужен балансировщик.
+
+Создание AMI: ec2 -> instances -> actions -> images and templates -> create image
+
+Creating a Load Balancer: ec2 -> load balancer -> create load balancer -> select(or create) secutiry group -> select(or create) target group 
+
+Creating auto scaling group: ec2 -> auto scaling group -> create -> launch template -> (ami, instance type => advanced details -> insert script if need to start app immediatly after scaling) -> vpn -> subnets(all public) -> attach to load balancer -> target group -> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
