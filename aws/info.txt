@@ -26,7 +26,7 @@ Network Access Control List - проверяет какой айпишник п�
  
  NAT Gateway - позволяет сущностям внутри впс взаимодействовать с внешним миром. Это можно сделать и без него если включить автонастройку ИП для новых сущностей внутри впс(network -> actions -> edit subnet settings -> enable auto assign public ipv4 address), но так секьюрнее (и дороже... намного дороже)
  
- ====================
+====================
 Elastic Compute Cloud(ec2) - просто виртуалка, у которой есть память, цпу, нетворк. На нее можно установить любую ос.  
 Amazon Machine Image (AMI) - операционная система и софт, который установлен в ес2. 
 Elastic Block Store(EBS) - independent storage volumes used with ec2 instances. По сути память для ес2, которая еще и независимая(можно ее кидать с одного ес2 на другой)
@@ -38,11 +38,32 @@ Elastic ip - публичные ИП адреса, который создают
 ======================
 Auto Scaling Group -  увеличивает или уменьшает количетсов инстансов, основываясь на заранее определенных правилах. Чтобы его настроить дополнительно нужен балансировщик.
 
+Target group - говорит балансировщику куда перекинуть траффик (ес2, ип и т.д.)
+
 Создание AMI: ec2 -> instances -> actions -> images and templates -> create image
 
 Creating a Load Balancer: ec2 -> load balancer -> create load balancer -> select(or create) secutiry group -> select(or create) target group 
 
-Creating auto scaling group: ec2 -> auto scaling group -> create -> launch template -> (ami, instance type => advanced details -> insert script if need to start app immediatly after scaling) -> vpn -> subnets(all public) -> attach to load balancer -> target group -> 
+Creating auto scaling group: ec2 -> auto scaling group -> create -> launch template -> (ami, instance type => advanced details -> insert script if need to start app immediatly after scaling) -> vpn -> subnets(all public) -> attach to load balancer -> target group
+
+======================
+S3(Simple Storage Service) - сервис для хранения файлов. 
+Объект с3 состоит из метадаты и файла, файл может быть почти любого расширения и размера (до 5 тб, при этом максимальный размер файла для аплоада за раз - 5 гб)
+
+Объекты лежат в бакетах. Бакеты можно хранить в разных регионах и, соответственно, будет разная урла для таких бакетов.  
+По дефолту бакеты видят только тот акк, который создал его
+
+Bucket permissions: для начала, при создании бакета нужно указать что может быть осуществлен публичный доступ. S3 -> buckets -> bucket -> permissions -> bucket policy -> edit -> policy generator -> principal (who able to access; to add another account enter Amazon Resource Name)
+
+Файлы в с3 можно загружать через console(можно быстро загрузить небольшое количество файлов), CLI(чтобы загрузить целую папку), SDK
+
+CLI: aws s3 cp <local_folder> s3://<bucket>/<remote_folder> --recursive --exclude "<pattern>". Через cli может грузить только админ
+
+Чтобы включить CORS у s3: s3 -> bucket -> permissions -> CORS -> edit 
+
+Identity and Access Management (IAM) - обеспечивает точный контроль доступа во всех сервисах AWS
+
+Чтобы ес2 мог ходить в с3 используются AIM роли (вместо кредов при локальном сервере): ec2 -> instances -> actions -> create image; iam -> roles -> create role -> find s3 in policies; ec2 -> launch templates -> id -> actions -> modify template -> ami, advanced details ->  iam role -> create template; ec2 -> launch template -> choose version; можно в auto scaling group поменять версию темплейта если надо (по дефолту последний юзается); launch templates -> actions -> select default version; ec2 -> instances -> all instances created by auto scaling group(without names) -> instance state -> terminate instances 
  
  
  
