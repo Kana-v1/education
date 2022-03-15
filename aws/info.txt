@@ -64,10 +64,36 @@ CLI: aws s3 cp <local_folder> s3://<bucket>/<remote_folder> --recursive --exclud
 Identity and Access Management (IAM) - обеспечивает точный контроль доступа во всех сервисах AWS
 
 Чтобы ес2 мог ходить в с3 используются AIM роли (вместо кредов при локальном сервере): ec2 -> instances -> actions -> create image; iam -> roles -> create role -> find s3 in policies; ec2 -> launch templates -> id -> actions -> modify template -> ami, advanced details ->  iam role -> create template; ec2 -> launch template -> choose version; можно в auto scaling group поменять версию темплейта если надо (по дефолту последний юзается); launch templates -> actions -> select default version; ec2 -> instances -> all instances created by auto scaling group(without names) -> instance state -> terminate instances 
- 
- 
- 
- 
- 
+
+======================
+RDS(Relational Database Service) - бд которая менеджится через ес2
+
+RDS под капотом для себя создается ес2, ставит ос и движок для ос. По дефолту рдс бекапится раз в день. У рдс есть Multi-AZ Deployment
+
+Multi-AZ Deployment(az - avalability zone) - рдс сделает свою реплику в другой доступной зоне в том же регионе. Если зона упадет - бд переключится на другую зону.
+
+Для простого создания и использования нет ничего сложного. RDS -> create database...
+
+
+DynamoDB - notn-relational aws database. 
+DynamoDB состоит из таблиц, которые в свою очередь состоят из айтемов(аля строки), но каждому айтему нужен пк(строка, число или бинарник).
+
+Provision throughout capacity - количество операций в секунду для DynamoDB таблицы. В завивимости от величины этой характеристики aws выдает определенное количество хардварных ресурсов для таблицы.
+Юнит для чтения/записи - 4кб. Если данных на 6кб - значит нужно 2 таких юнита. В зависимости от параметра Provision through capacity бд может долго выполнять запрос, или вообще дропнуть его. 
+
+On-demand capacity mode - настроил и забыл, table capcacity scales as needed(with few limits). Намного дороже Provisioned Capacity Mode
+
+Provision Capacity Auto Scaling Mode - уменьшает или увеличивает Provision Capacity основываясь на рулах. Рботает как EC2 Auto Scaling Group. 
+
+
+
+
+
+
+
+
+
+
+
  
  
