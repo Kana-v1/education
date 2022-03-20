@@ -81,13 +81,29 @@ DynamoDB состоит из таблиц, которые в свою очере
 Provision throughout capacity - количество операций в секунду для DynamoDB таблицы. В завивимости от величины этой характеристики aws выдает определенное количество хардварных ресурсов для таблицы.
 Юнит для чтения/записи - 4кб. Если данных на 6кб - значит нужно 2 таких юнита. В зависимости от параметра Provision through capacity бд может долго выполнять запрос, или вообще дропнуть его. 
 
-On-demand capacity mode - настроил и забыл, table capcacity scales as needed(with few limits). Намного дороже Provisioned Capacity Mode
+On-demand capacity mode - настроил реквайрменты и забыл, table capcacity scales as needed(with few limits). Намного дороже Provisioned Capacity Mode
 
 Provision Capacity Auto Scaling Mode - уменьшает или увеличивает Provision Capacity основываясь на рулах. Рботает как EC2 Auto Scaling Group. 
 
+======================
+CloudFormation - сервис который позволяет создать и сконфигурировать ресурсы(базы данных, iam role, launch configuration, ec2  instances, roles, etc) на основании конфигурационных данных (template).
 
+Stack - несколько таких ресурсов, которые создаются одним темплейтом
 
+Обычно это yml файл который нужен если есть необходимость создавать ресурсы на разных vpc или акках. Просто в консоле 1 раз накликать такое проще. 
 
+Stack creation: CloudFormation -> create stack -> upload a template file -> ami (ec2 -> AMIs -> copy ami id)
+
+======================
+Elastic Beanstalk - сервис для автоматизации деплоя
+
+Elastic Beanstalk содержит саму апку, платформу на которой эта апка будет работать (питон, го, ...), и переменные окружения(ami, ec2 instances, auto scaling group, etc). Эти переменные могут быть разными чтобы разные версии апки деплоились по разному (например дев и прод). 
+
+Elastic Beanstalk -> create app -> upload zip file -> ensure its inside vpc (check network -> edit -> select ur vpc -> select subnet with required ip(public for education) -> select available zones (all is ok)); edit intsances -> select sg; edit security -> select ur ec2 key pair -> select iam role -> save; edit capacity -> change enviroment type to load balanced -> save; edit load balanced -> change port to listen(processes -> select process -> actions -> edit -> change port -> save -> create app;
+
+Чтобы такая апка работала нормально ей кроме своих доступов(s3, rds, dynamoDB) нужно к роли добавить AWSElasticBeanstalkWebTier policy (iam -> roles -> attach policy)
+
+Еще нужно убедиться что rds похволяет коннектиться к нему из ec2 (rds -> databases -> select db -> vpc security groups -> inbound rules -> edit inbound rules -> add rule -> source -> select ur sg) -> restart ec2 instances (elastic beanstalk -> env -> actions -> restart app service; btw u can find url here)
 
 
 
