@@ -19,9 +19,9 @@ jobs:
         uses: actions/checkout@v2
       
       - name: linter
-        run: |
-         go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.45.2
-         golangci-lint run -v
+        uses: golangci/golangci-lint-action@v2
+        with:
+          version: v1.45.2
          
       - name: tests
         run: go test ./...
