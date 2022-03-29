@@ -9,7 +9,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: setUp
       - uses: actions/setup-go@v3
         with:
           go-version: "1.18"
@@ -28,7 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: test
     steps:
-      - name: setUp
       - uses: actions/setup-go@v3
         with:
           go-version: "1.18"
@@ -46,7 +44,7 @@ jobs:
         with:
 
           aws_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
-          aws_secret_key: ${{ AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
 
           application_name: file_loader
           envitoment_name: Fileloader-env
