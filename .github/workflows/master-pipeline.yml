@@ -15,7 +15,7 @@ jobs:
           check-latest: true
       - uses: golangci/golangci-lint-action@v2
         with:
-          version: 1.45.2
+          version: v1.45.2
       - uses: actions/checkout@v2
 
       - name: linter
