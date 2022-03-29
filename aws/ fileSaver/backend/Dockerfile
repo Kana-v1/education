@@ -9,3 +9,4 @@ FROM alpine:3.12 as runtime
 WORKDIR /app
 COPY --from=builder /app/main .
 CMD ["./main"]
+
