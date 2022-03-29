@@ -14,12 +14,12 @@ jobs:
           go-version: "1.18"
           check-latest: true
       - uses: actions/checkout@v2
-      - uses: golangci/golangci-lint-action@v2
-        with:
-          version: v1.45.2    
-
+      
       - name: linter
-        run: golangci-lint run -v
+        run: |
+         go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.45.2
+         golangci-lint run -v
+         
       - name: tests
         run: go test ./...
 
