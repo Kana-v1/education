@@ -1,10 +1,12 @@
 package main
 
-import "net/http"
+import (
+	"net/http"
+)
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Hello world!"))
+		_, _ = w.Write([]byte("Hello world!"))
 	})
 
 	err := http.ListenAndServe(":80", nil)
