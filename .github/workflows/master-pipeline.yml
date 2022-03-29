@@ -18,10 +18,11 @@ jobs:
       - name: git clone
         uses: actions/checkout@v2
       
- #     - name: linter
-  #      uses: golangci/golangci-lint-action@v2
-   #     with:
-    #      version: v1.45.2
+      - name: linter
+        run: ls -la
+        #uses: golangci/golangci-lint-action@v2
+        #with:
+        # version: v1.45.2
          
       - name: tests
         run: go test ./...
