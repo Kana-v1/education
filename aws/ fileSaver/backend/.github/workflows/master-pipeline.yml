@@ -1,0 +1,57 @@
+name: master-pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setUp
+      - uses: install go
+      - uses: actions/setup-go@v3
+        with:
+          go-version: "1.18"
+          check-latest: true
+      - uses: golangci/golangci-lint-action
+        with:
+          version: 1.45.2
+      - uses: actions/checkout@v2
+
+      - name: linter
+        run: golangci-lint run -v
+      - name: tests
+        run: go test ./...
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: setUp
+      - uses: install go
+      - uses: actions/setup-go@v3
+        with:
+          go-version: "1.18"
+          check-latest: true
+      - uses: golangci/golangci-lint-action
+        with:
+          version: 1.45.2
+      - uses: actions/checkout@v3
+
+      - name: generate deployment package
+        run: zip -r deploy.zip . -x '*.git'
+
+      - name: deploy to AWS(EB)
+        uses: einaregilsson/beanstalk-deploy@v20
+        with:
+
+          aws_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_secret_key: ${{ AWS_ACCESS_KEY_ID }}
+
+          application_name: file_loader
+          envitoment_name: Fileloader-env
+
+          region: "us-east-1"
+          deployment_package: deploy.zip
