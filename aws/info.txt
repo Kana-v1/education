@@ -112,6 +112,8 @@ Elastic Beanstalk -> create app -> upload zip file -> ensure its inside vpc (che
 
 Еще нужно убедиться что rds похволяет коннектиться к нему из ec2 (rds -> databases -> select db -> vpc security groups -> inbound rules -> edit inbound rules -> add rule -> source -> select ur sg) -> restart ec2 instances (elastic beanstalk -> env -> actions -> restart app service; btw u can find url here)
 
+чтобы задеплоить несколько контейнеров нужно выбрать docker, создать балансировщик (instances -> single to load balancer), в балансировщике сдеать листенер на каждый конейтнер, сделать процесс с внешним портом конейтенера и привязть листенер к этому процессу. И не забыть про health_check эндпоинты
+
 
 ======================
 
