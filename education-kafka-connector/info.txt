@@ -1,0 +1,30 @@
+Kafka Connect has been designed to transfer data into the out-of-Kafka system (database, key-value storage, etc)
+
+ETL (extract, transfer, load) - mechansim for getting data in any type (json, xml, datastore) transef in to to other type and load to the other system. Apache Kafka is ETL tool
+
+In an ETL Kafka Connector connects to the both data source and kafka broker and can be used instead of producer. In this case Kafka Connector get data from a data source and send it to a Kafka Broker
+
+
+Debezium - popular Kafka Connector's connector. Its observ the transaction log of the database. If there was a transaction than debezium will send event to the Kafka Broker. 
+
+If u send post request to the debezium server u can connect kafka and datastore. Under the hood debezium will create some topics which contains database events. All events will be sent in the json format by default. Debezium can be configured to use other data converters
+
+
+Worker - kafka connection instance. 
+Kafka Connector can work in either standalone mode (single instance) or distributed mode (cluster). 
+
+Connector as a PLUGIN - is an adapter that allows connecting to/from a common system
+Connector as an INSTANCE - a job that enables the exchange of data between Kafka and other systems
+
+Connector plugin may have multiple connectors running
+
+Tasks - single connector instance can be represented at the runtime level by >=1  tasks. Each task run in the separate thread. 
+Connector = topic. Task = partition
+
+Stream Processing - during stream processing we have access to multiple data streams (if we have factory when in the one stream is electricity as some essence and there is a car in the other stream, we can combine data from that 2 streams ang get electrocar from the outside stream. It is just one of patterns) 
+Message Processing - during the message processing we have access to only one data stream. Even more, we actually have access to only one message at the time. (if we get 1 stream with a car, we can only modify it and set this car to a output stream)
+
+Single Message Transform(SMT) can NOT be using for stream processing. So we usually get SMT chain
+ 
+
+
