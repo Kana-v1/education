@@ -1,0 +1,84 @@
+=============================================================================================
+BASICS:
+
+
+You should cache objects. See your data as an object you use in the code and save it to the cache. 
+
+If you have a PERFORMANCE problem, your system is slow for a single user.
+If you have a SCALABILITY problem, your system is fast for a single user but slow under heavy load.
+
+CAP(consistency, availability, partition tolerance) theorem - u can follow only two of CAP guarantees
+C - every read receives the most recent write or an error, that means that the reader either gets the last version of data or an error
+A - every request receives a responce
+P - the system will continue to function when network partitions occur
+
+Since networks are not reliable, we have to support P, so there are only 2 choices:
+CP - waiting for a response might result in a timeout error
+AP - responses return the most readily available version of the data, which might not be the latest
+
+Availability quinatified by uptime(or downtime) as a percentage of time the service is available. Measured in number of 9s - three 9s, four 9s
+
+DNS:
+
+NS record(name server) - specifies the DNS servers for your domain
+MS record(mail exchange) - specifies the meil servers for accepting messages
+A record(address) - points a name to an IP address
+CNAME(canonical) - points a name to another name or CNAME(example.com to www.example.com) or to an A record
+
+CDN (content delivery network) - proxy servers that serve serve content from locations closer to users. The site's DNS resolution will tell users which CDN server to contact
+
+Push CDN receive new content whenever changes occur on your server, and there is fully your responsibility
+Pull CDNs grab new content from your server when the first user requests the content
+
+Load balancers:
+can route traffic by random, round robin, etc, AND by layer 4 (looks at info at the transport layer, in fact: destination IP, ports in the header, but no the contents of packet), layer 7 (looks at the application layer. Can involve contents of the header, message and cookies). 
+
+
+DB : 
+
+federation (functional partitioning) - splits up databases by function. Instead, of a single database you could have 3: forums, users, products. 
+
+Sharding - distributes data across different databases. So users 0-100 are in the 1st database, 101-200 - in the 2nd, etc. More users - more shards in the cluster
+
+Denormalization - improve read performance at the expense of write performance. Redundant copies of the data are written in multiple tables to avoid joins. 
+
+NoSQL DB:
+
+Key-value - hash table as an abstraction
+
+Document store - key-value with documents as values
+
+Wide column store - nested map ColumnFamily<RowKey, Columns<ColKey, Value, Timestamp>> as an abstraction
+
+Graph database
+
+Cache:
+
+In general you can cache database queries or objects. If you gonna cache the querie you should use querie's hash as the key and result as the value. 
+
+
+There are some strategies for the cache updating:
+
+cache-aside (lazy loading) - the cache does not interact with the storage. Application look for entry in cache, if miss, load entry from the db to the cache, return entry.   
+
+write-through - application uses cache as the main datastore, cache is responsible for reading and writing to the database. 
+
+write-behind - application uses cache as the main datastore, cache writes data asynchronously (adds adding event to the queue, ...), this allows to cut off writing latency
+
+refresh-ahead - cache will automatically upload expired data from the datastore
+
+Asynchronism:
+
+back pressure might be useful if the queue's size you use for asynchronise work grow too fast. Back pressure limits the queue size, and when the queue is filled up, clients get a server busy ot HTTP 503 status
+
+
+Communication:
+
+
+
+
+
+
+
+
+
