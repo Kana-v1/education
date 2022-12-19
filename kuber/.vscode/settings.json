@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/v1%40service": "file:///Users/kana/Projects/Education/education/kuber/mongo-express.yml"
+    }
+}
