@@ -1,0 +1,2 @@
+Table space is an additional data are outside the base directory and they are used to allow administrators to define locations in the file system where the files representing database objects can be stored.
+The data file is divided into the pages of fixed length, the default is 8KB. Those pages numbered sequentially from 0, and such numbers called as block numbers. If the page is filled, Postgres add new page to the end of the file. Postgres has 7 background processes and 1 for each client. 
