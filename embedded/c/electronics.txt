@@ -1,0 +1,26 @@
+Volt - V (sometimes E)
+Current - I. 1 amp = 1 coulob of charge per second
+
+Power(watts): P = V * I
+
+R = V / I
+
+parallel resistance: R = 1 / (1 / R1 + 1 / R2)
+
+conductance: G = 1 / R
+
+dissipated power: P = I * V
+
+transfer function H = output voltate / input voltage
+
+voltage source has to maintain a fixed voltage drop across its terminals
+
+current source has to maintain a constant current through the external circuit
+
+an open circuit has connected to it
+a short circuit is a piece of wire bridging the output
+
+If you wanna attach source loader to the circuit, loader's has to be much bigger  than the circuit's resistance
+
+
+

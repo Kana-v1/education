@@ -1,0 +1,6 @@
+$ mkdir -p "/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/build/az-21238347578d298b/out/try_track_caller"
+$ cd "/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/build/az-21238347578d298b/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/build/az-21238347578d298b/out/try_track_caller/try_track_caller.rs"
+$ "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/build/az-21238347578d298b/out/try_track_caller"

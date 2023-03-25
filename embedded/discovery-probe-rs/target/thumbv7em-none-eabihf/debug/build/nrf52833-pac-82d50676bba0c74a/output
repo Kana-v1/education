@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/build/nrf52833-pac-82d50676bba0c74a/out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs

@@ -1,0 +1,5 @@
+mongodb stores data in BSON, internally and over the network
+
+"mongoimport" and "mongoexport" are used to export data in JSON format, whereas "mongorestore" and "mongodump" respectively in BSON  
+
+

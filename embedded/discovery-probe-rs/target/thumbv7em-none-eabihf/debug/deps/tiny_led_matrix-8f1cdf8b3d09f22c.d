@@ -1,0 +1,11 @@
+/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/deps/tiny_led_matrix-8f1cdf8b3d09f22c.rmeta: /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/lib.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/control.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/display.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/timer.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/render.rs
+
+/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/deps/libtiny_led_matrix-8f1cdf8b3d09f22c.rlib: /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/lib.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/control.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/display.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/timer.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/render.rs
+
+/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/deps/tiny_led_matrix-8f1cdf8b3d09f22c.d: /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/lib.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/control.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/display.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/timer.rs /home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/render.rs
+
+/home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/lib.rs:
+/home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/control.rs:
+/home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/display.rs:
+/home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/timer.rs:
+/home/kana/.cargo/registry/src/github.com-1ecc6299db9ec823/tiny-led-matrix-1.0.2/src/render.rs:

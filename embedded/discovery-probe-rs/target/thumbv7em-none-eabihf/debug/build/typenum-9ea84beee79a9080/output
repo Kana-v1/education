@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/build/typenum-9ea84beee79a9080/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/kana/My_projects/education/embedded/discovery-probe-rs/target/thumbv7em-none-eabihf/debug/build/typenum-9ea84beee79a9080/out/op.rs

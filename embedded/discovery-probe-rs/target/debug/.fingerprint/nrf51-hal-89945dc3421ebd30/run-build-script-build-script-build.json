@@ -1,0 +1,1 @@
+{"rustc":2101975609295939736,"features":"","target":0,"profile":0,"path":0,"deps":[[5056641475941843111,"build_script_build",false,17987471483253701441]],"local":[{"RerunIfChanged":{"output":"debug/build/nrf51-hal-89945dc3421ebd30/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

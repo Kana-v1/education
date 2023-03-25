@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/kana/My_projects/education/embedded/discovery-probe-rs/target/debug/build/cortex-m-rt-c070cfb460e46b29/out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=link.x.in

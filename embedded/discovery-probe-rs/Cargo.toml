@@ -1,0 +1,17 @@
+[package]
+name = "discovery-probe-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m-rt = "0.7.3"
+microbit-v2 = "0.13.0"
+panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
+rtt-target = { version = "0.3.1", features = ["cortex-m"] }
+
+[build]
+target = "thumbv7em-none-eabihf"
+
+[profile.dev]
+opt-level = 0
+

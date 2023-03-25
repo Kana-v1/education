@@ -1,0 +1,13 @@
+lsusb | grep -i "NXP ARM mbed"
+ls -l /dev/bus/usb/001/065
+
+cargo embed -target thumbv7em-none-eabihf
+
+arm-none-eabi-gdb target/thumbv7em-none-eabihf/debug/led-roulette -ex 'target remote localhost:1337'
+
+
+
+probe-rs debug: probe-rs-debugger debug --port 50000
+
+
+
