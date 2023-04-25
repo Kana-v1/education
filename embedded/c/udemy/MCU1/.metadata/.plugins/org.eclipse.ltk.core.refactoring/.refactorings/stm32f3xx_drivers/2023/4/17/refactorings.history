@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;stm32f3xx_drivers/Src/001_led_toggle&apos; to &apos;001_led_toggle.c&apos;" description="Rename resource &apos;001_led_toggle&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/001_led_toggle" name="001_led_toggle.c" stamp="1682275104323" updateReferences="true"/>
+</session>

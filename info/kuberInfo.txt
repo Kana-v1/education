@@ -111,15 +111,25 @@ ConfigMap and Secret are mounted the same way with the PVC
 You can use use different volumes simultaneously (configMap, secret, PVC, etc)
 
 Storage class creates provision volumes automatically through the PVC
+
+Provided that there is no PV that fits PVC, k8s will create a dynamic PV. And StorageClasses are rules that used to create that PVs
  
 ======================================================================================================================================================================================================
+STATEFULSET
+
 If you're using StatefulSet there are master instance that can both read and write. And slave instances that can only read
 
 However, all instances use different physical storages.
 
 
+======================================================================================================================================================================================================
+SERVICE
 
+If your service is gonna handle request to different developments, and, hence, has 2 different ports for handling those requests. Then you should give a name to each of those ports
 
+Headless Service used when the client wants to talk directly to the specific port. It might be common case for stateful apps (db, etc). Set the clusterIp to none if you wanna specify headless service
+
+======================================================================================================================================================================================================
 
 
 
