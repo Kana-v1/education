@@ -1,0 +1,29 @@
+!SESSION 2023-04-27 20:36:45.898 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-27 20:36:55.249
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-27 20:36:55.254
+!MESSAGE Log4j2 initialized with config file C:\education\embedded\c\udemy\MCU1\stm32f3xx_drivers\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-27 20:36:57.330
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-27 20:41:55.876
+!MESSAGE Indexed 'f303xx_drivers' (3 sources, 53 headers) in 0.762 sec: 1,949 declarations; 2,832 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-27 20:42:45.929
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2023-04-27 20:42:45.932
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-04-27 20:42:45.932
+!MESSAGE The project description file (.project) for 'f303xx_drivers' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-04-27 20:42:46.006
+!MESSAGE The workspace will exit with unsaved changes in this session.
