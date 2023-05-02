@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 27, 2023
+ *      Author: Kana
+ */
+
+
+#include "stm32f303xx.h"
+
+int main(void) {
+	return 0;
+}
+
+void EXTI0_IRQHandler(void) {
+	// handle the interrupt
+	GPIO_IRQHandling(0);
+}

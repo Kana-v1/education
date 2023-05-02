@@ -27,12 +27,12 @@ typedef struct {
 }GPIO_Handle_t;
 
 // @GPIO_PIN_MODES
-#define GPIO_MODE_IN	 0
+#define GPIO_MODE_IN	   0
 #define GPIO_MODE_OUTPUT 1
 #define GPIO_MODE_ALT_FN 2
 #define GPIO_MODE_ANALOG 3
-#define GPIO_MODE_IT_FT	 4 // falling edge trigger
-#define GPIO_MODE_IT_RT  5 // rising edge trigger
+#define GPIO_MODE_IT_RT  4 // rising edge trigger
+#define GPIO_MODE_IT_FT  5 // falling edge trigger
 #define GPIO_MODE_IT_RFT 6 // rising edge, falling edge trigger
 
 // @GPIO_PIN_PULL_DOWN
@@ -79,7 +79,8 @@ void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t Val
 void GPIO_WriteToOutputPort(GPIO_RegDef_t *pGPIOx, uint16_t Value);
 void GPIO_ToggleOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber);
 
-void GPIO_IRQConfig(uint8_t IRQNumber, uint8_t IRQPriority, uint8_t EnOrDi);
+void GPIO_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnOrDi);
+void GPIO_IRQPriorityConfig(uint8_t IRQNumber, uint8_t IRQPriority);
 void GPIO_IRQHandling(uint8_t PinNumber);
 
 #endif /* INC_STM32F303XX_GPIO_DRIVER_H_ */
