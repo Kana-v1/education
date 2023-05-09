@@ -1,0 +1,63 @@
+/*
+ * f303xx_spi_driver.h
+ *
+ *  Created on: May 9, 2023
+ *      Author: Kana
+ */
+
+#ifndef INC_F303XX_SPI_DRIVER_H_
+#define INC_F303XX_SPI_DRIVER_H_
+
+#include "stm32f303xx.h"
+
+typedef struct {
+	uint8_t SPI_BIDIMODE; 	// bidirectional data mode
+	uint8_t SPI_BIDIOE; 	// output enable in bidirectional mode
+	uint8_t SPI_CRCEN; 		// hardware CRC calculation
+	uint8_t SPI_CRCNEXT; 	// transmit CRC next
+	uint8_t SPI_CRCK; 		// CRC length
+	uint8_t SPI_RXONLY; 	// receive only mode enabled
+	uint8_t SPI_SSM; 		// Software slave management
+	uint8_t SPI_SSI; 		// internal slave select
+	uint8_t SPI_LSBFIRST; 	// frame format
+	uint8_t SPI_SPE; 		// SPI enable
+	uint8_t SPI_BR[2]; 		// baud rate control
+	uint8_t SPI_MSTR; 		// master selection
+	uint8_t SPI_CPOL; 		// clock polarity
+	uint8_t SPI_CPHA; 		// clock phase
+} SPI_Config_t;
+
+typedef struct {
+	SPI_RegDef_t *pSPIx;
+	SPI_Config_t SPIConfig;
+} SPI_Handle_t;
+
+#define SPI_DEVICE_MODE_MASTER	1
+#define SPI_DEVICE_MODE_SLAVE		0
+
+#define SPI_BUS_CONFIG_FD			1 // full duplex
+#define SPI_BUS_CONFIG_HD			2 // half duplex
+#define SPI_BUS_CONFIG_S_TXONLY 	3 // simple send
+#define SPI_BUS_CONFIG_S_RXONLY 	4 // simple receive
+
+#define
+
+
+// peripheral clock setup
+void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnOrDi);
+
+void SPI_Init(SPI_Handle_t *pSPIHandle);
+void SPI_DeInit(SPI_RegDef_t *pSPIx);
+
+// data send and receive
+void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *dataPtr, uint32_t length);
+void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *rcBufPtr, uint32_t length);
+
+// IRQ Configuration and ISR handling
+void SPI_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnOrDi);
+void SPI_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority);
+void SPI_IRQHandling(SPI_Handle_t *pHandle);
+
+// peripheral control APIs
+
+#endif /* INC_F303XX_SPI_DRIVER_H_ */

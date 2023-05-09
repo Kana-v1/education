@@ -1,0 +1,8 @@
+../drivers/Src/f303xx_spi_driver.c:11:6:SPI_PeriClockControl	16	static
+../drivers/Src/f303xx_spi_driver.c:23:6:SPI_Init	16	static
+../drivers/Src/f303xx_spi_driver.c:27:6:SPI_DeInit	16	static
+../drivers/Src/f303xx_spi_driver.c:32:6:SPI_SendData	24	static
+../drivers/Src/f303xx_spi_driver.c:36:6:SPI_ReceiveData	24	static
+../drivers/Src/f303xx_spi_driver.c:41:6:SPI_IRQInterruptConfig	16	static
+../drivers/Src/f303xx_spi_driver.c:45:6:SPI_IRQPriorityConfig	16	static
+../drivers/Src/f303xx_spi_driver.c:49:6:SPI_IRQHandling	16	static

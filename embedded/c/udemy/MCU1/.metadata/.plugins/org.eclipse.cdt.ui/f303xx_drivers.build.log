@@ -1,5 +1,7 @@
-21:53:19 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+22:37:33 **** Incremental Build of configuration Debug for project f303xx_drivers ****
 make -j12 all 
+arm-none-eabi-gcc "../drivers/Src/f303xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/f303xx_spi_driver.d" -MT"drivers/Src/f303xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/f303xx_spi_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f303xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/stm32f303xx_gpio_driver.d" -MT"drivers/Src/stm32f303xx_gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/stm32f303xx_gpio_driver.o"
 arm-none-eabi-gcc "../Src/005_button_interrupt.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/005_button_interrupt.d" -MT"Src/005_button_interrupt.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/005_button_interrupt.o"
 arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: f303xx_drivers.elf
@@ -7,11 +9,11 @@ Finished building target: f303xx_drivers.elf
 arm-none-eabi-size   f303xx_drivers.elf 
 arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
    text	   data	    bss	    dec	    hex	filename
-   2320	      8	   1568	   3896	    f38	f303xx_drivers.elf
+   2400	      8	   1568	   3976	    f88	f303xx_drivers.elf
 Finished building: default.size.stdout
  
 Finished building: f303xx_drivers.list
  
 
-21:53:19 Build Finished. 0 errors, 0 warnings. (took 280ms)
+22:37:33 Build Finished. 0 errors, 0 warnings. (took 279ms)
 

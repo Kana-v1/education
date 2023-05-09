@@ -6,6 +6,7 @@
  */
 #include <stdint.h>
 #include "stm32f303xx_gpio_driver.h"
+#include "stm32f303xx_spi_driver.h"
 
 #ifndef INC_STM32F303XX_H_
 
@@ -112,6 +113,18 @@ typedef struct {
 	__vo uint32_t CFGR[3];
 } SYSCFG_RegDef_t;
 
+typedef struct {
+	__vo uint32_t CR1;
+	__vo uint32_t CR2;
+	__vo uint32_t SR;
+	__vo uint32_t DR;
+	__vo uint32_t CRCPR;
+	__vo uint32_t RXCRCR;
+	__vo uint32_t TXCRCR;
+	__vo uint32_t I2SCFGR;
+	__vo uint32_t I2SPR;
+} SPI_RegDef_t;
+
 #define GPIOA	((GPIO_RegDef_t*)GPIOA_BASEADDR)
 #define GPIOB	((GPIO_RegDef_t*)GPIOB_BASEADDR)
 #define GPIOC	((GPIO_RegDef_t*)GPIOC_BASEADDR)
@@ -201,5 +214,15 @@ typedef struct {
 #define NVIC_IRQ_PRIO0		0
 #define NVIC_IRQ_PRIO12		12
 #define NVIC_IRQ_PRIO15		15
+
+#define SPI1	((SPI_RegDef_t*)SPI1_BASEADDR)
+
+#define SPI_CR1_CPHA		0
+#define SPI_CR1_DFF		11
+#define SPI_CR1_BIDIMODE	15
+#define SPI_CR1_RXONLY	10
+#define SPI_CR1_CPOL		1
+#define SPI_CR1_BR			3
+#define SPI_CR1_SSM		9
 
 #endif /* INC_STM32F303XX_H_ */
