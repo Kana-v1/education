@@ -48,6 +48,10 @@ typedef struct {
 #define SPI_SSM_EN 1
 #define SPI_SSM_DI 0
 
+#define SPI_TXE_FLAG (1 << SPI_SR_TXE_OFFSET)
+#define SPI_RXNE_FLAG (1 << SPI_SR_RXNE_OFFSET)
+#define SPI_BSY_FLAG (1 << SPI_SR_BSY_OFFSET)
+
 // peripheral clock setup
 void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnOrDi);
 
@@ -64,5 +68,8 @@ void SPI_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority);
 void SPI_IRQHandling(SPI_Handle_t *pHandle);
 
 // peripheral control APIs
+void SPI_PeripheralControl(SPI_RegDef_t *pSPI, uint8_t enOrDi);
+
+void SPI_SSIConfig(SPI_RegDef_t *pSPI, uint8_t enOrDi);
 
 #endif /* INC_F303XX_SPI_DRIVER_H_ */

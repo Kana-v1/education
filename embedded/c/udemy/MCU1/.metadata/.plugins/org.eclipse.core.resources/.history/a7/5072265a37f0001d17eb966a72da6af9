@@ -1,0 +1,16 @@
+/*
+ * 006spi_tx_testing.c
+ *
+ *  Created on: May 11, 2023
+ *      Author: Kana
+ */
+
+// PB12 -> SPI2_NSS
+// PB13 -> SPI2_SCK
+// PB14 -> SPI2_MISO
+// PB15 -> SPI2_MOSI
+// AL function mode 5
+
+int main(void) {
+	return 0;
+}

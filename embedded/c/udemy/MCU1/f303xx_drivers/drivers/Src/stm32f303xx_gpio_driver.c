@@ -10,6 +10,9 @@
 void GPIO_Init(GPIO_Handle_t *pGPIOHandle) {
 	uint32_t temp = 0;
 
+	// enable the peripheral clock
+	GPIO_PeriClockControl(pGPIOHandle->pGPIOX, ENABLE);
+
 	if (pGPIOHandle->GPIO_PinConfig.GPIO_PinMode < GPIO_MODE_ANALOG && pGPIOHandle->GPIO_PinConfig.GPIO_PinMode >= GPIO_MODE_IN) {
 		// non-interrupt mode
 		temp = (pGPIOHandle->GPIO_PinConfig.GPIO_PinMode << (2 * pGPIOHandle->GPIO_PinConfig.GPIO_PinNumber)); // multiply by 2 because each pin takes 2 bit fields

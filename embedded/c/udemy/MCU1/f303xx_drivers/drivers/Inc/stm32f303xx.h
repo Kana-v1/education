@@ -30,14 +30,14 @@
 #define INC_STM32F303XX_H_
 
 #define FLASH_BASEADDR 			0x08000000U // Main memory
-#define SRAM					0x20000000U
-#define ROM 					0x1FFFD800U // System memory
+#define SRAM						0x20000000U
+#define ROM 						0x1FFFD800U // System memory
 
-#define PERIPH_BASE 			0x40000000U // APB1 base memory
+#define PERIPH_BASE 				0x40000000U // APB1 base memory
 #define APB1PERIPH_BASE			PERIPH_BASE
-#define APB2PERIPH_BASE 		0x40010000U
+#define APB2PERIPH_BASE 			0x40010000U
 #define AHB1PERIPH_BASE			0x40020000U
-#define AHB2PERIPH_BASE 		0x48000000U
+#define AHB2PERIPH_BASE 			0x48000000U
 #define AHB3PERIPH_BASE			0x50000000U
 
 #define GPIOA_BASEADDR			(AHB2PERIPH_BASE + 0x0000)
@@ -46,10 +46,10 @@
 #define GPIOD_BASEADDR			(AHB2PERIPH_BASE + 0x0C00)
 #define GPIOE_BASEADDR			(AHB2PERIPH_BASE + 0x1000)
 #define GPIOF_BASEADDR			(AHB2PERIPH_BASE + 0x1400)
-#define RCC_BASEADDR			0x40021000
+#define RCC_BASEADDR				0x40021000
 
-#define I2C1_BASEADDR			(APB1PERIPH_BASE + 0x5400)
-#define I2C2_BASEADDR			(APB1PERIPH_BASE + 0x5800)
+#define I2C1_BASEADDR				(APB1PERIPH_BASE + 0x5400)
+#define I2C2_BASEADDR				(APB1PERIPH_BASE + 0x5800)
 #define SPI2_BASEADDR 			(APB1PERIPH_BASE + 0x3800)
 #define SPI3_BASEADDR 			(APB1PERIPH_BASE + 0x3C00)
 #define USART2_BASEADDR			(APB1PERIPH_BASE + 0x4400)
@@ -146,13 +146,13 @@ typedef struct {
 #define I2C1_PCLK_EN()		( RCC->APB1ENR |= (1 << 21) ) // I2C1 peripheral clock enable
 #define I2C2_PCLK_EN()		( RCC->APB1ENR |= (1 << 22) ) // I2C2 peripheral clock enable
 
-#define SPI2_PCLK_EN()		( RCC->APB1ENR |= (1 << 14) ) // I2SPI2 peripheral clock enable
-#define SPI3_PCLK_EN()		( RCC->APB1ENR |= (1 << 15) ) // I2SPI3 peripheral clock enable
+#define SPI2_PCLK_EN()		( RCC->APB1ENR |= (1 << 14) ) // SPI2 peripheral clock enable
+#define SPI3_PCLK_EN()		( RCC->APB1ENR |= (1 << 15) ) // SPI3 peripheral clock enable
 
 #define USART2_PCLK_EN()	( RCC->APB1ENR |= (1 << 17) ) // USART2 peripheral clock enable
 #define USART3_PCLK_EN()	( RCC->APB1ENR |= (1 << 18) ) // USART3 peripheral clock enable
 
-#define UART4_PCLK_EN() 	( RCC->APB1ENR |= (1 << 19) ) // UART4 peripheral clock enable
+#define UART4_PCLK_EN() 		( RCC->APB1ENR |= (1 << 19) ) // UART4 peripheral clock enable
 #define UART5_PCLK_EN()	    ( RCC->APB1ENR |= (1 << 20) ) // UART5 peripheral clock enable
 
 #define SPI1_PCLK_EN()		( RCC->APB2ENR |= (1 << 12) ) // SPI1 peripheral clock enable
@@ -169,13 +169,13 @@ typedef struct {
 #define I2C1_PCLK_DI()		( RCC->APB1ENR &= ~(1 << 21) ) // I2C1 peripheral clock enable
 #define I2C2_PCLK_DI()		( RCC->APB1ENR &= ~(1 << 22) ) // I2C2 peripheral clock enable
 
-#define SPI2_PCLK_DI()		( RCC->APB1ENR &= ~(1 << 14) ) // I2SPI2 peripheral clock enable
-#define SPI3_PCLK_DI()		( RCC->APB1ENR &= ~(1 << 15) ) // I2SPI3 peripheral clock enable
+#define SPI2_PCLK_DI()		( RCC->APB1ENR &= ~(1 << 14) ) // SPI2 peripheral clock enable
+#define SPI3_PCLK_DI()		( RCC->APB1ENR &= ~(1 << 15) ) // SPI3 peripheral clock enable
 
 #define USART2_PCLK_DI()	( RCC->APB1ENR &= ~(1 << 17) ) // USART2 peripheral clock enable
 #define USART3_PCLK_DI()	( RCC->APB1ENR &= ~(1 << 18) ) // USART3 peripheral clock enable
 
-#define UART4_PCLK_DI() 	( RCC->APB1ENR &= ~(1 << 19) ) // UART4 peripheral clock enable
+#define UART4_PCLK_DI() 		( RCC->APB1ENR &= ~(1 << 19) ) // UART4 peripheral clock enable
 #define UART5_PCLK_DI()	    ( RCC->APB1ENR &= ~(1 << 20) ) // UART5 peripheral clock enable
 
 #define SPI1_PCLK_DI()		( RCC->APB2ENR &= ~(1 << 12) ) // SPI1 peripheral clock enable
@@ -190,11 +190,13 @@ typedef struct {
 #define GPIOF_REG_RESET()	do { (RCC->AHBRSTR |= (1 << 22)); (RCC->AHBRSTR &= ~(1 << 22)); } while (0)
 
 #define ENABLE 			1
-#define DISABLE 		0
-#define SET 			ENABLE
-#define RESET 			DISABLE
-#define GPIO_PIN_SET 	SET
+#define DISABLE 			0
+#define SET 				ENABLE
+#define RESET 				DISABLE
+#define GPIO_PIN_SET 		SET
 #define GPIO_PIN_RESET 	RESET
+#define FLAG_RESET			RESET
+#define FLAG_SET			SET
 
 #define GPIO_BASEADDR_TO_CODE(x)		(x == GPIOA) ? 0 :\
 										(x == GPIOB) ? 1 :\
@@ -216,6 +218,8 @@ typedef struct {
 #define NVIC_IRQ_PRIO15		15
 
 #define SPI1	((SPI_RegDef_t*)SPI1_BASEADDR)
+#define SPI2	((SPI_RegDef_t*)SPI2_BASEADDR)
+#define SPI3	((SPI_RegDef_t*)SPI3_BASEADDR)
 
 #define SPI_CR1_CPHA		0
 #define SPI_CR1_DFF		11
@@ -223,6 +227,11 @@ typedef struct {
 #define SPI_CR1_RXONLY	10
 #define SPI_CR1_CPOL		1
 #define SPI_CR1_BR			3
+#define SPI_CR1_SPE		6
+#define SPI_CR1_SSI		8
 #define SPI_CR1_SSM		9
 
+#define SPI_SR_RXNE_OFFSET	0
+#define SPI_SR_TXE_OFFSET		1
+#define SPI_SR_BSY_OFFSET		7
 #endif /* INC_STM32F303XX_H_ */

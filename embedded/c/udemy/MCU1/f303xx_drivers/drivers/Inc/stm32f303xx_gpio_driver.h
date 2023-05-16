@@ -66,6 +66,7 @@ typedef struct {
 #define GPIO_PIN_NO_12 12
 #define GPIO_PIN_NO_13 13
 #define GPIO_PIN_NO_14 14
+#define GPIO_PIN_NO_15 15
 
 
 void GPIO_Init(GPIO_Handle_t *pGPIOHandle);

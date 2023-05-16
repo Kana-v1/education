@@ -1,15 +1,456 @@
-22:37:33 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+23:49:32 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+23:49:35 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+23:49:42 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+23:50:35 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+23:54:19 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:03:06 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:03:29 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:09:27 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:10:10 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:10:31 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:15:26 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:15:32 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:15:55 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:16:01 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:16:26 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:17:02 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:24:27 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+00:24:48 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+18:19:47 **** Clean-only build of configuration Debug for project f303xx_drivers ****
+make -j12 clean 
+rm -rf ./drivers/Src/f303xx_spi_driver.cyclo ./drivers/Src/f303xx_spi_driver.d ./drivers/Src/f303xx_spi_driver.o ./drivers/Src/f303xx_spi_driver.su ./drivers/Src/stm32f303xx_gpio_driver.cyclo ./drivers/Src/stm32f303xx_gpio_driver.d ./drivers/Src/stm32f303xx_gpio_driver.o ./drivers/Src/stm32f303xx_gpio_driver.su
+rm -rf ./Startup/startup_stm32f303vctx.d ./Startup/startup_stm32f303vctx.o
+rm -rf ./Src/006spi_tx_testing.cyclo ./Src/006spi_tx_testing.d ./Src/006spi_tx_testing.o ./Src/006spi_tx_testing.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf default.size.stdout f303xx_drivers.elf f303xx_drivers.list f303xx_drivers.map
+ 
+18:19:48 **** Incremental Build of configuration Debug for project f303xx_drivers ****
 make -j12 all 
 arm-none-eabi-gcc "../drivers/Src/f303xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/f303xx_spi_driver.d" -MT"drivers/Src/f303xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/f303xx_spi_driver.o"
 arm-none-eabi-gcc "../drivers/Src/stm32f303xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/stm32f303xx_gpio_driver.d" -MT"drivers/Src/stm32f303xx_gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/stm32f303xx_gpio_driver.o"
-arm-none-eabi-gcc "../Src/005_button_interrupt.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/005_button_interrupt.d" -MT"Src/005_button_interrupt.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/005_button_interrupt.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f303vctx.d" -MT"Startup/startup_stm32f303vctx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f303vctx.o" "../Startup/startup_stm32f303vctx.s"
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
 arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: f303xx_drivers.elf
  
 arm-none-eabi-size   f303xx_drivers.elf 
 arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
    text	   data	    bss	    dec	    hex	filename
-   2400	      8	   1568	   3976	    f88	f303xx_drivers.elf
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+18:20:11 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:21:39 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:25:15 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:34:22 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../drivers/Src/f303xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/f303xx_spi_driver.d" -MT"drivers/Src/f303xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/f303xx_spi_driver.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+21:34:58 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:36:34 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:39:22 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:41:44 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:43:03 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:43:55 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:46:28 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:48:57 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../drivers/Src/f303xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/f303xx_spi_driver.d" -MT"drivers/Src/f303xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/f303xx_spi_driver.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+21:54:45 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../drivers/Src/f303xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/f303xx_spi_driver.d" -MT"drivers/Src/f303xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/f303xx_spi_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f303xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/stm32f303xx_gpio_driver.d" -MT"drivers/Src/stm32f303xx_gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/stm32f303xx_gpio_driver.o"
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+21:55:17 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2432	      8	   1568	   4008	    fa8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:56:30 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../drivers/Src/f303xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/f303xx_spi_driver.d" -MT"drivers/Src/f303xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/f303xx_spi_driver.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2480	      8	   1568	   4056	    fd8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+21:58:48 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2480	      8	   1568	   4056	    fd8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+21:59:51 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2480	      8	   1568	   4056	    fd8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+22:07:11 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2480	      8	   1568	   4056	    fd8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+22:09:53 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2416	      8	   1568	   3992	    f98	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+22:10:40 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2416	      8	   1568	   3992	    f98	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+22:11:18 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2416	      8	   1568	   3992	    f98	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+22:13:06 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2416	      8	   1568	   3992	    f98	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+22:14:11 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2416	      8	   1568	   3992	    f98	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+22:30:59 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2480	      8	   1568	   4056	    fd8	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+22:36:23 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../drivers/Src/f303xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/f303xx_spi_driver.d" -MT"drivers/Src/f303xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/f303xx_spi_driver.o"
+arm-none-eabi-gcc "../drivers/Src/stm32f303xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drivers/Src/stm32f303xx_gpio_driver.d" -MT"drivers/Src/stm32f303xx_gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "drivers/Src/stm32f303xx_gpio_driver.o"
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2544	      8	   1568	   4120	   1018	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+22:38:53 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2544	      8	   1568	   4120	   1018	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+22:39:24 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-size   f303xx_drivers.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2544	      8	   1568	   4120	   1018	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+22:40:14 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2544	      8	   1568	   4120	   1018	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+22:41:00 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2544	      8	   1568	   4120	   1018	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+22:42:09 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2544	      8	   1568	   4120	   1018	f303xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: f303xx_drivers.list
+ 
+22:43:02 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/006spi_tx_testing.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/006spi_tx_testing.d" -MT"Src/006spi_tx_testing.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/006spi_tx_testing.o"
+arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f303xx_drivers.elf
+ 
+arm-none-eabi-size   f303xx_drivers.elf 
+arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   2544	      8	   1568	   4120	   1018	f303xx_drivers.elf
 Finished building: default.size.stdout
  
 Finished building: f303xx_drivers.list
