@@ -71,6 +71,10 @@ int main(void) {
 
 	SPI_SendData(SPI2, (uint8_t*)user_data, strlen(user_data));
 
+	// we have to ensure that all data was sent before disabling peripheral
+	// 1. confirm that SPI is not busy
+	while (SPI_GetFlagStatus(SPI2, SPI_BUSY_FLAG));
+
 	SPI_PeripheralControl(SPI2, DISABLE);
 
 	while(1);

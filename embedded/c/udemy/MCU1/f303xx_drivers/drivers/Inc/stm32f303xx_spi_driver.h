@@ -50,7 +50,7 @@ typedef struct {
 
 #define SPI_TXE_FLAG (1 << SPI_SR_TXE_OFFSET)
 #define SPI_RXNE_FLAG (1 << SPI_SR_RXNE_OFFSET)
-#define SPI_BSY_FLAG (1 << SPI_SR_BSY_OFFSET)
+#define SPI_BUSY_FLAG (1 << SPI_SR_BUSY_OFFSET)
 
 // peripheral clock setup
 void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnOrDi);
@@ -60,7 +60,7 @@ void SPI_DeInit(SPI_RegDef_t *pSPIx);
 
 // data send and receive
 void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *dataPtr, uint32_t length);
-void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *rcBufPtr, uint32_t length);
+void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *rxBufPtr, uint32_t length);
 
 // IRQ Configuration and ISR handling
 void SPI_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnOrDi);
@@ -71,5 +71,6 @@ void SPI_IRQHandling(SPI_Handle_t *pHandle);
 void SPI_PeripheralControl(SPI_RegDef_t *pSPI, uint8_t enOrDi);
 
 void SPI_SSIConfig(SPI_RegDef_t *pSPI, uint8_t enOrDi);
+void SPI_SSOEConfig(SPI_RegDef_t *pSPI, uint8_t enOrDi);
 
 #endif /* INC_F303XX_SPI_DRIVER_H_ */

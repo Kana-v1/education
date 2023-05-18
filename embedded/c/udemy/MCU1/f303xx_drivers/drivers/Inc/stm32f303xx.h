@@ -231,7 +231,9 @@ typedef struct {
 #define SPI_CR1_SSI		8
 #define SPI_CR1_SSM		9
 
+#define SPI_CR2_SSOI		2
+
 #define SPI_SR_RXNE_OFFSET	0
 #define SPI_SR_TXE_OFFSET		1
-#define SPI_SR_BSY_OFFSET		7
+#define SPI_SR_BUSY_OFFSET	7
 #endif /* INC_STM32F303XX_H_ */

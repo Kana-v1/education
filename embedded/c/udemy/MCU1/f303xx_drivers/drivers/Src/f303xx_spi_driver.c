@@ -10,7 +10,7 @@
 
 void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnOrDi) {
 	if (EnOrDi == ENABLE) {
-	 	if (pSPIx == SPI1) {
+		if (pSPIx == SPI1) {
 			SPI1_PCLK_EN();
 		} else if (pSPIx == SPI2) {
 			SPI2_PCLK_EN();
@@ -84,11 +84,21 @@ uint8_t SPI_GetFlagStatus(SPI_RegDef_t *pSPIx, uint32_t flagName) {
 
 	return FLAG_RESET;
 }
+
+void SPI_SSOEConfig(SPI_RegDef_t *pSPI, uint8_t enOrDi) {
+	if (enOrDi == ENABLE) {
+		pSPI->CR2 |= (1 << SPI_CR2_SSOI);
+	} else {
+		pSPI->CR2 &= ~(1 << SPI_CR2_SSOI);
+	}
+}
+
 // data send and receive
 void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *dataPtr, uint32_t length) {
 	while (length > 0) {
 		// 1. wait until data has come to the Tx register (Txe is set)
-		while (SPI_GetFlagStatus(pSPIx, SPI_TXE_FLAG) == FLAG_RESET);
+		while (SPI_GetFlagStatus(pSPIx, SPI_TXE_FLAG) == FLAG_SET) // was FLAG_RESET
+			;
 
 		// 2. check the DFF bit in CR1
 		if (pSPIx->CR1 & (1 << SPI_CR1_DFF)) {
@@ -114,8 +124,26 @@ void SPI_PeripheralControl(SPI_RegDef_t *pSPI, uint8_t enOrDi) {
 	}
 }
 
-void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *rcBufPtr, uint32_t length) {
+void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *rxBufPtr, uint32_t length) {
+	while (length > 0) {
+		// 1. wait until data has come to the RXNE register (RXNE is set)
+		while (SPI_GetFlagStatus(pSPIx, SPI_TXE_RXNE) == FLAG_SET)
+			;
 
+		// 2. check the DFF bit in CR1
+		if (pSPIx->CR1 & (1 << SPI_CR1_DFF)) {
+			// 16 bit data format
+			// 1. read the data from the DR
+			*((uint16_t*) rxBufPtr) = pSPIx->DR;
+			length -= 2;
+			(uint16_t*) rxBufPtr++;
+		} else {
+			// 8 bit data format
+			*rxBufPtr = pSPIx->DR;
+			length--;
+			rxBufPtr++;
+		}
+	}
 }
 
 // IRQ Configuration and ISR handling
