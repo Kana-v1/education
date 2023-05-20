@@ -3,10 +3,10 @@ f303xx_spi_driver.c:27:6:SPI_SSIConfig	2
 f303xx_spi_driver.c:35:6:SPI_Init	4
 f303xx_spi_driver.c:76:6:SPI_DeInit	1
 f303xx_spi_driver.c:80:9:SPI_GetFlagStatus	2
-f303xx_spi_driver.c:89:6:SPI_SSOEConfig	2
-f303xx_spi_driver.c:98:6:SPI_SendData	4
+f303xx_spi_driver.c:88:6:SPI_SSOEConfig	2
+f303xx_spi_driver.c:97:6:SPI_SendData	4
 f303xx_spi_driver.c:119:6:SPI_PeripheralControl	2
-f303xx_spi_driver.c:127:6:SPI_ReceiveData	1
-f303xx_spi_driver.c:132:6:SPI_IRQInterruptConfig	1
-f303xx_spi_driver.c:136:6:SPI_IRQPriorityConfig	1
-f303xx_spi_driver.c:140:6:SPI_IRQHandling	1
+f303xx_spi_driver.c:127:6:SPI_ReceiveData	4
+f303xx_spi_driver.c:150:6:SPI_IRQInterruptConfig	1
+f303xx_spi_driver.c:154:6:SPI_IRQPriorityConfig	1
+f303xx_spi_driver.c:158:6:SPI_IRQHandling	1

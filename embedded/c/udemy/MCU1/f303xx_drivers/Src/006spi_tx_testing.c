@@ -10,7 +10,6 @@
 // PB14 -> SPI2_MISO
 // PB15 -> SPI2_MOSI
 // ALT function mode 5
-
 #include "stm32f303xx.h"
 #include <string.h>
 
@@ -65,21 +64,21 @@ int main(void) {
 	// this makes  NSS signal
 	SPI_SSIConfig(SPI2, ENABLE);
 
-	// enable the SPI2 peripheral
-	SPI_PeripheralControl(SPI2, ENABLE);
+	while (1) {
 
+		// enable the SPI2 peripheral
+		SPI_PeripheralControl(SPI2, ENABLE);
 
-	SPI_SendData(SPI2, (uint8_t*)user_data, strlen(user_data));
+		SPI_SendData(SPI2, (uint8_t*) user_data, strlen(user_data));
 
-	// we have to ensure that all data was sent before disabling peripheral
-	// 1. confirm that SPI is not busy
-	while (SPI_GetFlagStatus(SPI2, SPI_BUSY_FLAG));
+		// we have to ensure that all data was sent before disabling peripheral
+		// 1. confirm that SPI is not busy
+		while (SPI_GetFlagStatus(SPI2, SPI_BUSY_FLAG))
+			;
 
-	SPI_PeripheralControl(SPI2, DISABLE);
-
-	while(1);
+		SPI_PeripheralControl(SPI2, DISABLE);
+	}
 
 	return 0;
 }
-
 

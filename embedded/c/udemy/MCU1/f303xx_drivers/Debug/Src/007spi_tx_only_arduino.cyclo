@@ -1,5 +1,0 @@
-007spi_tx_only_arduino.c:17:6:SPI2_GPIOInit	1
-007spi_tx_only_arduino.c:39:6:SPI2_Init	1
-007spi_tx_only_arduino.c:54:6:GPIO_ButtonInit	1
-007spi_tx_only_arduino.c:66:6:delay	2
-007spi_tx_only_arduino.c:71:5:main	2

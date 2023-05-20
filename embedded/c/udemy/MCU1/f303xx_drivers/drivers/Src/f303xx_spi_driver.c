@@ -97,7 +97,7 @@ void SPI_SSOEConfig(SPI_RegDef_t *pSPI, uint8_t enOrDi) {
 void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *dataPtr, uint32_t length) {
 	while (length > 0) {
 		// 1. wait until data has come to the Tx register (Txe is set)
-		while (SPI_GetFlagStatus(pSPIx, SPI_TXE_FLAG) == FLAG_SET) // was FLAG_RESET
+		while (SPI_GetFlagStatus(pSPIx, SPI_TXE_FLAG) == FLAG_RESET) // was FLAG_RESET
 			;
 
 		// 2. check the DFF bit in CR1
@@ -127,7 +127,7 @@ void SPI_PeripheralControl(SPI_RegDef_t *pSPI, uint8_t enOrDi) {
 void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *rxBufPtr, uint32_t length) {
 	while (length > 0) {
 		// 1. wait until data has come to the RXNE register (RXNE is set)
-		while (SPI_GetFlagStatus(pSPIx, SPI_TXE_RXNE) == FLAG_SET)
+		while (SPI_GetFlagStatus(pSPIx, SPI_TXE_FLAG) == FLAG_SET)
 			;
 
 		// 2. check the DFF bit in CR1

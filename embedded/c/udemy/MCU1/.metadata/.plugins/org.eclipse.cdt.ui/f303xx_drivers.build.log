@@ -1,17 +1,10 @@
-22:01:26 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+20:16:21 **** Incremental Build of configuration Debug for project f303xx_drivers ****
 make -j12 all 
-arm-none-eabi-gcc "../Src/007spi_tx_only_arduino.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303VCTx -DSTM32 -DSTM32F3 -DSTM32F3DISCOVERY -c -I../Inc -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Inc" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers" -I"C:/education/embedded/c/udemy/MCU1/f303xx_drivers/drivers/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/007spi_tx_only_arduino.d" -MT"Src/007spi_tx_only_arduino.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/007spi_tx_only_arduino.o"
-arm-none-eabi-gcc -o "f303xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\education\embedded\c\udemy\MCU1\f303xx_drivers\STM32F303VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f303xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: f303xx_drivers.elf
- 
 arm-none-eabi-size   f303xx_drivers.elf 
-arm-none-eabi-objdump -h -S  f303xx_drivers.elf  > "f303xx_drivers.list"
    text	   data	    bss	    dec	    hex	filename
-   2696	      8	   1568	   4272	   10b0	f303xx_drivers.elf
+   2568	      8	   1568	   4144	   1030	f303xx_drivers.elf
 Finished building: default.size.stdout
  
-Finished building: f303xx_drivers.list
- 
 
-22:01:27 Build Finished. 0 errors, 0 warnings. (took 286ms)
+20:16:21 Build Finished. 0 errors, 0 warnings. (took 85ms)
 
