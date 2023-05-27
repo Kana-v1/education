@@ -5,12 +5,14 @@
  *      Author: kana
  */
 #include <stdint.h>
+#include <stddef.h>
 #include "stm32f303xx_gpio_driver.h"
 #include "stm32f303xx_spi_driver.h"
 
 #ifndef INC_STM32F303XX_H_
 
-#define __vo volatile
+#define __vo 	volatile
+#define __weak __attribute__((weak))
 
 #define NVIC_ISER0		 (( __vo uint32_t*)0xE000E100)
 #define NVIC_ISER1		 (( __vo uint32_t*)0xE000E104)
@@ -213,6 +215,10 @@ typedef struct {
 #define IRQ_NO_EXTI9_5		23
 #define IRQ_NO_EXTI15_10		40
 
+#define IRQ_NO_SPI1	35
+#define IRQ_NO_SPI2	36
+#define IRQ_NO_SPI3	51
+
 #define NVIC_IRQ_PRIO0		0
 #define NVIC_IRQ_PRIO12		12
 #define NVIC_IRQ_PRIO15		15
@@ -232,8 +238,12 @@ typedef struct {
 #define SPI_CR1_SSM		9
 
 #define SPI_CR2_SSOI		2
+#define SPI_CR2_ERRIE		5
+#define SPI_CR2_RXNEIE	6
+#define SPI_CR2_TXEIE		7
 
 #define SPI_SR_RXNE_OFFSET	0
 #define SPI_SR_TXE_OFFSET		1
+#define SPI_SR_OVR_OFFSET		6
 #define SPI_SR_BUSY_OFFSET	7
 #endif /* INC_STM32F303XX_H_ */

@@ -10,9 +10,10 @@
 // PB14 -> SPI2_MISO
 // PB15 -> SPI2_MOSI
 // ALT function mode 5
-
 #include "stm32f303xx.h"
 #include <string.h>
+
+SPI_Handle_t SPIHandle;
 
 // this function is used to initialize the GPIO pins to behave as SPI2 pins
 void SPI2_GPIOInit(void) {
@@ -32,6 +33,10 @@ void SPI2_GPIOInit(void) {
 	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_15;
 	GPIO_Init(&SPIPins);
 
+	// MISO
+	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_14;
+	GPIO_Init(&SPIPins);
+
 	// NSS
 	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_12;
 	GPIO_Init(&SPIPins);
@@ -49,29 +54,53 @@ void SPI2_Init(void) {
 	SPI2Handle.SPIConfig.SPI_CPHA = SPI_CPHA_LOW;
 	SPI2Handle.SPIConfig.SPI_SSM = SPI_SSM_EN; // software slave management enabled for NSS pin
 
+	SPI2Handle.RxState = SPI_READY;
+	SPI2Handle.TxState = SPI_READY;
+	SPI2Handle.pTxBuffer = NULL;
+	SPI2Handle.TxLength = 0;
+
 	SPI_Init(&SPI2Handle);
+
+	SPIHandle = SPI2Handle;
 }
 
 int main(void) {
 	char user_data[] = "Hello world!";
+
 	SPI2_GPIOInit();
 
 	SPI2_Init();
 
-	// this makes  NSS signal
-	SPI_SSIConfig(SPI2, ENABLE);
+	/*
+	* making SSOE 1 does NSS output enable.
+	* The NSS pin is automatically managed by the hardware.
+	* i.e when SPE=1 , NSS will be pulled to low
+	* and NSS pin will be high when SPE=0
+	*/
+	SPI_SSOEConfig(SPI2, ENABLE);
+
+	SPI_IRQInterruptConfig(IRQ_NO_SPI2, ENABLE);
+
+	//while (1) {
 
 	// enable the SPI2 peripheral
 	SPI_PeripheralControl(SPI2, ENABLE);
 
+	while (SPI_SendDataIT(&SPIHandle, (uint8_t*) user_data, strlen(user_data)) == SPI_BUSY_IN_TX)
+		;
 
-	SPI_SendData(SPI2, (uint8_t*)user_data, strlen(user_data));
+	SPI_PeripheralControl(SPI2,DISABLE);
 
-	SPI_PeripheralControl(SPI2, DISABLE);
 
-	while(1);
+	//SPI_PeripheralControl(SPI2, DISABLE);
+	//}
 
+	while (1)
+		;
 	return 0;
 }
 
+void SPI2_IRQHandler(void) {
+	SPI_IRQHandling(&SPIHandle);
+}
 

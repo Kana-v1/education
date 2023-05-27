@@ -1,10 +1,10 @@
-20:16:21 **** Incremental Build of configuration Debug for project f303xx_drivers ****
+18:51:07 **** Incremental Build of configuration Debug for project f303xx_drivers ****
 make -j12 all 
 arm-none-eabi-size   f303xx_drivers.elf 
    text	   data	    bss	    dec	    hex	filename
-   2568	      8	   1568	   4144	   1030	f303xx_drivers.elf
+   3424	      8	   1592	   5024	   13a0	f303xx_drivers.elf
 Finished building: default.size.stdout
  
 
-20:16:21 Build Finished. 0 errors, 0 warnings. (took 85ms)
+18:51:07 Build Finished. 0 errors, 0 warnings. (took 148ms)
 

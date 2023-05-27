@@ -23,6 +23,12 @@ typedef struct {
 typedef struct {
 	SPI_RegDef_t *pSPIx;
 	SPI_Config_t SPIConfig;
+	uint8_t *pTxBuffer;
+	uint8_t *pRxBuffer;
+	uint8_t TxLength;
+	uint8_t RxLength;
+	uint8_t TxState;
+	uint8_t RxState;
 } SPI_Handle_t;
 
 #define SPI_DEVICE_MODE_MASTER	1
@@ -52,6 +58,16 @@ typedef struct {
 #define SPI_RXNE_FLAG (1 << SPI_SR_RXNE_OFFSET)
 #define SPI_BUSY_FLAG (1 << SPI_SR_BUSY_OFFSET)
 
+#define SPI_READY 			0
+#define SPI_BUSY_IN_RX	1
+#define SPI_BUSY_IN_TX	2
+
+
+// possible SPI application events
+#define SPI_EVENT_TX_COMPLETE		1
+#define SPI_EVENT_RX_COMPLETE		2
+#define SPI_EVENT_OVR_ERR			3
+
 // peripheral clock setup
 void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnOrDi);
 
@@ -61,6 +77,10 @@ void SPI_DeInit(SPI_RegDef_t *pSPIx);
 // data send and receive
 void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *dataPtr, uint32_t length);
 void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *rxBufPtr, uint32_t length);
+
+// data send and receive interrupt based
+uint8_t SPI_SendDataIT(SPI_Handle_t *pSPIHandle, uint8_t *dataPtr, uint32_t length);
+uint8_t SPI_ReceiveDataIT(SPI_Handle_t *pSPIHandle, uint8_t *rxBufPtr, uint32_t length);
 
 // IRQ Configuration and ISR handling
 void SPI_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnOrDi);
@@ -74,5 +94,12 @@ uint8_t SPI_GetFlagStatus(SPI_RegDef_t *pSPIx, uint32_t flagName);
 
 void SPI_SSIConfig(SPI_RegDef_t *pSPI, uint8_t enOrDi);
 void SPI_SSOEConfig(SPI_RegDef_t *pSPI, uint8_t enOrDi);
+
+void SPI_ClearOVRFlag(SPI_RegDef_t *pSPI);
+void SPI_CloseTransmission(SPI_Handle_t *pSPIHandle);
+void SPI_CloseReception(SPI_Handle_t *pSPIHandle);
+
+// application callback
+void SPI_ApplicationEventCallback(SPI_Handle_t *pSPIHandle, uint8_t event);
 
 #endif /* INC_F303XX_SPI_DRIVER_H_ */

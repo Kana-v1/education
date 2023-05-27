@@ -1,4 +1,4 @@
-"./Src/006spi_tx_testing.o"
+"./Src/009spi_tx_interrupt_test.o"
 "./Src/syscalls.o"
 "./Src/sysmem.o"
 "./Startup/startup_stm32f303vctx.o"
