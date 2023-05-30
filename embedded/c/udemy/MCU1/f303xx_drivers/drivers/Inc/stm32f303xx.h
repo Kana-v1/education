@@ -8,6 +8,7 @@
 #include <stddef.h>
 #include "stm32f303xx_gpio_driver.h"
 #include "stm32f303xx_spi_driver.h"
+#include "stm32f303xx_i2c_driver.h"
 
 #ifndef INC_STM32F303XX_H_
 
@@ -127,12 +128,31 @@ typedef struct {
 	__vo uint32_t I2SPR;
 } SPI_RegDef_t;
 
+
+typedef struct {
+	__vo uint32_t CR1;
+	__vo uint32_t CR2;
+	__vo uint32_t OAR1;
+	__vo uint32_t OAR2;
+	__vo uint32_t TIMINGR;
+	__vo uint32_t TIMEOUTR;
+	__vo uint32_t ISR;
+	__vo uint32_t ICR;
+	__vo uint32_t PECR;
+	__vo uint32_t RXDR;
+	__vo uint32_t TXDR;
+} I2C_RegDef_t;
+
+
 #define GPIOA	((GPIO_RegDef_t*)GPIOA_BASEADDR)
 #define GPIOB	((GPIO_RegDef_t*)GPIOB_BASEADDR)
 #define GPIOC	((GPIO_RegDef_t*)GPIOC_BASEADDR)
 #define GPIOD	((GPIO_RegDef_t*)GPIOD_BASEADDR)
 #define GPIOE	((GPIO_RegDef_t*)GPIOE_BASEADDR)
 #define GPIOF	((GPIO_RegDef_t*)GPIOF_BASEADDR)
+
+#define I2C1	((I2C_RegDef_t*)I2C1_BASEADDR)
+#define I2C2	((I2C_RegDef_t*)I2C2_BASEADDR)
 
 #define RCC			((RCC_RegDef_t*)RCC_BASEADDR)
 #define EXTI 			((EXTI_RegDef_t*)EXTI_BASEADDR)
@@ -246,4 +266,22 @@ typedef struct {
 #define SPI_SR_TXE_OFFSET		1
 #define SPI_SR_OVR_OFFSET		6
 #define SPI_SR_BUSY_OFFSET	7
+
+#define I2C_CR1_PE			0
+#define I2C_CR1_TXIE		1
+#define I2C_CR1_RXIE		2
+#define I2C_CR1_SBC		16
+
+#define I2C_CR2_NACK		15
+
+#define I2C_OAR1_OA1		1
+#define I2C_OAR1_OA1EN	15
+
+#define I2C_TIMINGR_SCLL		0
+#define I2C_TIMINGR_SCLH		8
+#define I2C_TIMINGR_SDADEL	16
+#define I2C_TIMINGR_SCLDEL	20
+#define I2C_TIMINGR_PRESC		28
+
+
 #endif /* INC_STM32F303XX_H_ */
