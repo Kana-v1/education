@@ -272,7 +272,13 @@ typedef struct {
 #define I2C_CR1_RXIE		2
 #define I2C_CR1_SBC		16
 
+#define I2C_CR2_SADD		0
+#define I2C_CR2_RD_WRN	10
+#define I2C_CR2_ADD10     11
+#define I2C_CR2_START		13
+#define I2C_CR2_STOP		14
 #define I2C_CR2_NACK		15
+#define I2C_CR2_NBYTES	16
 
 #define I2C_OAR1_OA1		1
 #define I2C_OAR1_OA1EN	15
@@ -282,6 +288,5 @@ typedef struct {
 #define I2C_TIMINGR_SDADEL	16
 #define I2C_TIMINGR_SCLDEL	20
 #define I2C_TIMINGR_PRESC		28
-
 
 #endif /* INC_STM32F303XX_H_ */

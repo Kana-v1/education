@@ -1,0 +1,13 @@
+stm32f303xx_i2c_driver.c:14:13:I2C_MasterAddressPhaseInit	1
+stm32f303xx_i2c_driver.c:31:13:I2C_GenerateStart	1
+stm32f303xx_i2c_driver.c:35:13:I2C_GenerateStop	1
+stm32f303xx_i2c_driver.c:42:10:RCC_GetPLLOutputClock	1
+stm32f303xx_i2c_driver.c:49:10:I2C_CLK	6
+stm32f303xx_i2c_driver.c:88:6:I2C_PeriClockControl	6
+stm32f303xx_i2c_driver.c:104:6:I2C_Init	1
+stm32f303xx_i2c_driver.c:134:6:I2C_DeInit	2
+stm32f303xx_i2c_driver.c:142:6:I2C_PeripheralControl	2
+stm32f303xx_i2c_driver.c:151:6:I2C_MasterSendData	4
+stm32f303xx_i2c_driver.c:179:9:I2C_GetFlagStatus	2
+stm32f303xx_i2c_driver.c:189:6:I2C_IRQInterruptConfig	12
+stm32f303xx_i2c_driver.c:216:6:I2C_IRQPriorityConfig	1

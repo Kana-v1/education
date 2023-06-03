@@ -1,0 +1,3 @@
+C:/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir
+C:/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

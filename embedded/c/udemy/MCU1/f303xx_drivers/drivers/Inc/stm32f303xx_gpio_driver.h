@@ -10,7 +10,6 @@
 
 
 #include "stm32f303xx.h"
-#include <stdint.h>
 
 typedef struct {
 	uint8_t GPIO_PinNumber;			// possible values from @GPIO_PIN_NUMBER

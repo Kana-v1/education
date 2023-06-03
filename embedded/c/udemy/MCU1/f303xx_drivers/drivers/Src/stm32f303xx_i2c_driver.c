@@ -4,6 +4,38 @@
  *  Created on: May 30, 2023
  *      Author: Kana
  */
+
+#include "stm32f303xx.h"
+
+static void I2C_MasterAddressPhaseInit(I2C_Handle_t *pI2CHandle, uint32_t dataLength, uint8_t slaveAddr, uint8_t readWrite);
+static void I2C_GenerateStart(I2C_RegDef_t *pI2Cx);
+static void I2C_GenerateStop(I2C_RegDef_t *pI2Cx);
+
+static void I2C_MasterAddressPhaseInit(I2C_Handle_t *pI2CHandle, uint32_t dataLength, uint8_t slaveAddr, uint8_t readWrite) {
+	uint32_t tempreg = 0;
+	// 1. set addressing mode
+	tempreg |= (0 << I2C_CR2_ADD10);
+
+	// 2. set slave address
+	tempreg |= (slaveAddr << I2C_CR2_SADD);
+
+	// 3. set number of bytes to be addressed
+	tempreg |= (dataLength << I2C_CR2_NBYTES);
+
+	// 4. set read or write master mode
+	tempreg |= (readWrite << I2C_CR2_RD_WRN);
+
+	pI2CHandle->pI2Cx->CR2 |= tempreg;
+}
+
+static void I2C_GenerateStart(I2C_RegDef_t *pI2Cx) {
+   pI2Cx->CR2 |= (1 << I2C_CR2_START);
+}
+
+static void I2C_GenerateStop(I2C_RegDef_t *pI2Cx) {
+   pI2Cx->CR1 |= (1 << I2C_CR2_STOP);
+}
+
 uint16_t AHB_PreScaler[8] = { 2, 4, 8, 16, 64, 128, 256, 512 };
 uint16_t APB1_PreScaler[8] = { 2, 4, 8, 16 };
 
@@ -72,8 +104,7 @@ void I2C_PeriClockControl(I2C_RegDef_t *pI2Cx, uint8_t EnOrDi) {
 void I2C_Init(I2C_Handle_t *pI2CHandle) {
 	uint32_t tempreg = 0;
 
-	// enable peripheral
-	//tempreg |= 1 << I2C_CR1_PE;
+	// config has to be set with 0 in the PE bit of the CR1 register
 
 	// enable acknowledge
 	tempreg |= pI2CHandle->I2C_Config.I2C_AckControl << I2C_CR1_SBC;
@@ -90,7 +121,7 @@ void I2C_Init(I2C_Handle_t *pI2CHandle) {
 	pI2CHandle->pI2Cx->OAR1 = tempreg;
 
 	// config timings
-	// all config below is for the 100kHz timing, and fI2CCLK = 8MHz. Configs were taken from the user manual
+	// all config below are for the 100kHz timing, and fI2CCLK = 8MHz. Configs were taken from the user manual
 	tempreg = 0;
 	tempreg |= 1 << I2C_TIMINGR_PRESC;
 	tempreg |= 0x13 << I2C_TIMINGR_SCLL;
@@ -98,7 +129,6 @@ void I2C_Init(I2C_Handle_t *pI2CHandle) {
 	tempreg |= 0x2 << I2C_TIMINGR_SDADEL;
 
 	pI2CHandle->pI2Cx->TIMINGR = tempreg;
-
 }
 
 void I2C_DeInit(I2C_RegDef_t *pI2Cx) {
@@ -111,11 +141,49 @@ void I2C_DeInit(I2C_RegDef_t *pI2Cx) {
 
 void I2C_PeripheralControl(I2C_RegDef_t *pI2Cx, uint8_t enOrDi) {
 	if (enOrDi == ENABLE) {
-		pSPI->CR1 |= (1 << I2C_CR1_PE);
+		pI2Cx->CR1 |= (1 << I2C_CR1_PE);
 	} else {
-		pSPI->CR1 &= ~(1 << I2C_CR1_PE);
+		pI2Cx->CR1 &= ~(1 << I2C_CR1_PE);
 	}
 }
+
+// this method is implemented only for the data length <= 255 bytes
+void I2C_MasterSendData(I2C_Handle_t *pI2CHandle, uint8_t *pTxBuffer, uint32_t length, uint8_t slaveAddr) {
+	// 1. address phase
+	I2C_MasterAddressPhaseInit(pI2CHandle, length, slaveAddr, I2C_MASTER_WRITE_MODE);
+
+	// 2. generate start condition
+	I2C_GenerateStart(pI2CHandle->pI2Cx);
+
+	// 3. wait until bus is free to use
+	while(!I2C_GetFlagStatus(pI2CHandle->pI2Cx, I2C_ISR_BUSY));
+	I2C_PeripheralControl(pI2CHandle->pI2Cx, ENABLE);
+
+	// 4. wait until data register is empty
+	while(!I2C_GetFlagStatus(pI2CHandle->pI2Cx, I2C_ISR_TXIS));
+
+	// 5. send data
+	pI2CHandle->pI2Cx->TXDR = *pTxBuffer;
+
+	// 6. wait until transfer is complete
+	while(!I2C_GetFlagStatus(pI2CHandle->pI2Cx, I2C_ISR_TC));
+
+	// 7. generate stop
+	I2C_GenerateStop(pI2CHandle->pI2Cx);
+
+	// 8. release peripheral
+	I2C_PeripheralControl(pI2CHandle->pI2Cx, DISABLE);
+}
+
+
+uint8_t I2C_GetFlagStatus(I2C_RegDef_t *pI2Cx, uint32_t flagName) {
+	if (pI2Cx->ISR & flagName) {
+		return FLAG_SET;
+	}
+
+	return FLAG_RESET;
+}
+
 
 // IRQ Configuration and ISR handling
 void I2C_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnOrDi) {
@@ -153,3 +221,8 @@ void I2C_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority) {
 	uint8_t shiftAmount = iprxSection + (8 - NO_PR_BITS_IMPLEMENTED);
 	*(NVIC_PR_BASE_ADDR + iprxOffset) |= (IRQPriority << shiftAmount);
 }
+
+
+
+
+

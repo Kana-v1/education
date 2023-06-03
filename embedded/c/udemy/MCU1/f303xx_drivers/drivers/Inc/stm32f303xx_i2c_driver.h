@@ -35,6 +35,19 @@ typedef struct {
 #define I2C1_RESET_OFFSET		21
 #define I2C2_RESET_OFFSET		22
 
+#define I2C_ISR_TXE	0
+#define I2C_ISR_TXIS	1
+#define I2C_ISR_RXNE	2
+#define I2C_ISR_TC		6
+#define I2C_ISR_BUSY	15
+
+#define I2C_TXE_FLAG (1 << I2C_ISR_TXE)
+#define I2C_RXNE_FLAG (1 << I2C_ISR_EXNE)
+#define I2C_BUSY_FLAG (1 << I2C_ISR_BUSY)
+
+#define I2C_MASTER_WRITE_MODE		0
+#define I2C_MASTER_READ_MODE		1
+
 
 // peripheral clock setup
 void I2C_PeriClockControl(I2C_RegDef_t *pI2Cx, uint8_t EnOrDi);
@@ -52,6 +65,9 @@ void I2C_PeripheralControl(I2C_RegDef_t *pI2Cx, uint8_t enOrDi);
 uint8_t I2C_GetFlagStatus(I2C_RegDef_t *pI2Cx, uint32_t flagName);
 
 void I2C_ApplicationEventCallback(I2C_Handle_t *pI2CHandle, uint8_t event);
+
+void I2C_MasterSendData(I2C_Handle_t *pI2CHandle, uint8_t *pTxBuffer, uint32_t length, uint8_t slaveAddr);
+void I2C_MasterReadData(I2C_Handle_t *pI2CHandle, uint8_t *pTxBuffer, uint32_t length, uint8_t slaveAddr);
 
 
 
