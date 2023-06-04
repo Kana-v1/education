@@ -1,4 +1,4 @@
-"./Src/010_i2c_master_tx_testing.o"
+"./Src/005_button_interrupt.o"
 "./Src/syscalls.o"
 "./Src/sysmem.o"
 "./Startup/startup_stm32f303vctx.o"
