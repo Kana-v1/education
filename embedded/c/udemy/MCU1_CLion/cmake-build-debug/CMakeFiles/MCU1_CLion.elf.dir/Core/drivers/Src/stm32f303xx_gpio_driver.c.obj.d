@@ -12,4 +12,6 @@ CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj: \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
  C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Inc/stm32f303xx_gpio_driver.h \
  C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Inc/stm32f303xx_spi_driver.h \
- C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Inc/stm32f303xx_i2c_driver.h
+ C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Inc/stm32f303xx_i2c_driver.h \
+ C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Inc/stm32f303xx_usart_driver.h \
+ C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Inc/stm32f303xx_rcc_driver.h

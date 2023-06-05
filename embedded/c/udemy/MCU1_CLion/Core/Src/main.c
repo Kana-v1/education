@@ -2,11 +2,11 @@
  * 001_led_toggle.c
  *
  *  Created on: Apr 23, 2023
- *      Author: kana
+ *      Author: kanagp
  */
 
 #include <string.h>
-#include "stm32f303xx_gpio_driver.h"
+#include "stm32f303xx.h"
 
 void delay(void) {
     for (uint32_t i = 0; i < 500000/2; i++);

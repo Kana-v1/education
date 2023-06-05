@@ -20,15 +20,17 @@ CMakeFiles/MCU1_CLion.elf.dir/Core/Src/main.c.obj: C:/education/embedded/c/udemy
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
-  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_spi_driver.h \
-  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h
 
 CMakeFiles/MCU1_CLion.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Core/Src/stm32f3xx_hal_msp.c \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/Inc/main.h \
@@ -234,7 +236,9 @@ CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj: C:/educa
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_spi_driver.h \
-  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h
 
 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_gpio_driver.c \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
@@ -249,7 +253,9 @@ CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj: C:
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_spi_driver.h \
-  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h
 
 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_i2c_driver.c \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx.h \
@@ -264,7 +270,43 @@ CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj: C:/
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx.h \
   C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_spi_driver.h \
-  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h
+
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_rcc_driver.c \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_spi_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h
+
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_usart_driver.c \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_spi_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_i2c_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h \
+  C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c \
   C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
@@ -1087,6 +1129,8 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.
   C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h
 
 
+C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_usart_driver.h:
+
 C:/education/embedded/c/udemy/MCU1_CLion/Core/Src/main.c:
 
 C:/education/embedded/c/udemy/MCU1_CLion/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h:
@@ -1107,8 +1151,6 @@ C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h:
 
-C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/time.h:
-
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h:
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h:
@@ -1118,6 +1160,8 @@ C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
 C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h:
+
+C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_rcc_driver.h:
 
 C:/education/embedded/c/udemy/MCU1_CLion/Drivers/CMSIS/Include/cmsis_gcc.h:
 
@@ -1141,8 +1185,6 @@ C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h:
 
-C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h:
-
 C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h:
 
 C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h:
@@ -1158,6 +1200,8 @@ C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h:
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h:
+
+C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Inc/stm32f303xx_gpio_driver.h:
 
 C:/education/embedded/c/udemy/MCU1_CLion/Core/Src/stm32f3xx_it.c:
 
@@ -1219,6 +1263,8 @@ C:/education/embedded/c/udemy/MCU1_CLion/Core/Src/syscalls.c:
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stat.h:
 
+C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/time.h:
+
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/time.h:
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h:
@@ -1278,6 +1324,10 @@ C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/f303xx_spi_driver.c:
 C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_gpio_driver.c:
 
 C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_i2c_driver.c:
+
+C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_rcc_driver.c:
+
+C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_usart_driver.c:
 
 C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c:
 

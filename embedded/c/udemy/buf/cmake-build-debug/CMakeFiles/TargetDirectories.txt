@@ -1,0 +1,3 @@
+C:/education/embedded/c/udemy/buf/cmake-build-debug/CMakeFiles/buf.elf.dir
+C:/education/embedded/c/udemy/buf/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/education/embedded/c/udemy/buf/cmake-build-debug/CMakeFiles/rebuild_cache.dir

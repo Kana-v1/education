@@ -352,6 +352,54 @@ Core/drivers/Src/stm32f303xx_i2c_driver.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCU1_CLion.elf.dir\build.make CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.s
 .PHONY : Core/drivers/Src/stm32f303xx_i2c_driver.c.s
 
+Core/drivers/Src/stm32f303xx_rcc_driver.obj: Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+.PHONY : Core/drivers/Src/stm32f303xx_rcc_driver.obj
+
+# target to build an object file
+Core/drivers/Src/stm32f303xx_rcc_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCU1_CLion.elf.dir\build.make CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+.PHONY : Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+
+Core/drivers/Src/stm32f303xx_rcc_driver.i: Core/drivers/Src/stm32f303xx_rcc_driver.c.i
+.PHONY : Core/drivers/Src/stm32f303xx_rcc_driver.i
+
+# target to preprocess a source file
+Core/drivers/Src/stm32f303xx_rcc_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCU1_CLion.elf.dir\build.make CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.i
+.PHONY : Core/drivers/Src/stm32f303xx_rcc_driver.c.i
+
+Core/drivers/Src/stm32f303xx_rcc_driver.s: Core/drivers/Src/stm32f303xx_rcc_driver.c.s
+.PHONY : Core/drivers/Src/stm32f303xx_rcc_driver.s
+
+# target to generate assembly for a file
+Core/drivers/Src/stm32f303xx_rcc_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCU1_CLion.elf.dir\build.make CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.s
+.PHONY : Core/drivers/Src/stm32f303xx_rcc_driver.c.s
+
+Core/drivers/Src/stm32f303xx_usart_driver.obj: Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+.PHONY : Core/drivers/Src/stm32f303xx_usart_driver.obj
+
+# target to build an object file
+Core/drivers/Src/stm32f303xx_usart_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCU1_CLion.elf.dir\build.make CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+.PHONY : Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+
+Core/drivers/Src/stm32f303xx_usart_driver.i: Core/drivers/Src/stm32f303xx_usart_driver.c.i
+.PHONY : Core/drivers/Src/stm32f303xx_usart_driver.i
+
+# target to preprocess a source file
+Core/drivers/Src/stm32f303xx_usart_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCU1_CLion.elf.dir\build.make CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.i
+.PHONY : Core/drivers/Src/stm32f303xx_usart_driver.c.i
+
+Core/drivers/Src/stm32f303xx_usart_driver.s: Core/drivers/Src/stm32f303xx_usart_driver.c.s
+.PHONY : Core/drivers/Src/stm32f303xx_usart_driver.s
+
+# target to generate assembly for a file
+Core/drivers/Src/stm32f303xx_usart_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCU1_CLion.elf.dir\build.make CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.s
+.PHONY : Core/drivers/Src/stm32f303xx_usart_driver.c.s
+
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
 .PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj
 
@@ -869,6 +917,12 @@ help:
 	@echo ... Core/drivers/Src/stm32f303xx_i2c_driver.obj
 	@echo ... Core/drivers/Src/stm32f303xx_i2c_driver.i
 	@echo ... Core/drivers/Src/stm32f303xx_i2c_driver.s
+	@echo ... Core/drivers/Src/stm32f303xx_rcc_driver.obj
+	@echo ... Core/drivers/Src/stm32f303xx_rcc_driver.i
+	@echo ... Core/drivers/Src/stm32f303xx_rcc_driver.s
+	@echo ... Core/drivers/Src/stm32f303xx_usart_driver.obj
+	@echo ... Core/drivers/Src/stm32f303xx_usart_driver.i
+	@echo ... Core/drivers/Src/stm32f303xx_usart_driver.s
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.i
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.s

@@ -207,10 +207,38 @@ CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Src\stm32f303xx_i2c_driver.c -o CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_i2c_driver.c.s
 
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_rcc_driver.c
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_rcc_driver.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_rcc_driver.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Src\stm32f303xx_rcc_driver.c
+
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Src\stm32f303xx_rcc_driver.c > CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_rcc_driver.c.i
+
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Src\stm32f303xx_rcc_driver.c -o CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_rcc_driver.c.s
+
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Core/drivers/Src/stm32f303xx_usart_driver.c
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_usart_driver.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_usart_driver.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Src\stm32f303xx_usart_driver.c
+
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Src\stm32f303xx_usart_driver.c > CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_usart_driver.c.i
+
+CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\education\embedded\c\udemy\MCU1_CLion\Core\drivers\Src\stm32f303xx_usart_driver.c -o CMakeFiles\MCU1_CLion.elf.dir\Core\drivers\Src\stm32f303xx_usart_driver.c.s
+
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i: cmake_force
@@ -224,7 +252,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i: cmake_force
@@ -238,7 +266,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cor
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i: cmake_force
@@ -252,7 +280,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_exti.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_exti.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_exti.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i: cmake_force
@@ -266,7 +294,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_ext
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i: cmake_force
@@ -280,7 +308,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_fla
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i: cmake_force
@@ -294,7 +322,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_fla
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i: cmake_force
@@ -308,7 +336,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpi
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i: cmake_force
@@ -322,7 +350,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i: cmake_force
@@ -336,7 +364,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.i: cmake_force
@@ -350,7 +378,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.i: cmake_force
@@ -364,7 +392,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i: cmake_force
@@ -378,7 +406,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i: cmake_force
@@ -392,7 +420,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i: cmake_force
@@ -448,7 +476,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: CMakeFiles/MCU1_CLion.elf.dir/flags.make
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: C:/education/embedded/c/udemy/MCU1_CLion/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj -MF CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usb.c.obj.d -o CMakeFiles\MCU1_CLion.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usb.c.obj -c C:\education\embedded\c\udemy\MCU1_CLion\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usb.c
 
 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.i: cmake_force
@@ -499,6 +527,8 @@ MCU1_CLion_elf_OBJECTS = \
 "CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj" \
 "CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj" \
 "CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj" \
+"CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj" \
+"CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj" \
 "CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj" \
 "CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj" \
 "CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj" \
@@ -533,6 +563,8 @@ MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Core/Startup/startup_stm32f303vctx
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
@@ -555,7 +587,7 @@ MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/s
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/build.make
 MCU1_CLion.elf: CMakeFiles/MCU1_CLion.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable MCU1_CLion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable MCU1_CLion.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MCU1_CLion.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug/MCU1_CLion.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug/MCU1_CLion.bin"

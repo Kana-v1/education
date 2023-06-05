@@ -1,3 +1,5 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "bugprone-reserved-identifier"
 /*
  * stm32f303xx.h
  *
@@ -9,6 +11,8 @@
 #include "stm32f303xx_gpio_driver.h"
 #include "stm32f303xx_spi_driver.h"
 #include "stm32f303xx_i2c_driver.h"
+#include "stm32f303xx_usart_driver.h"
+#include "stm32f303xx_rcc_driver.h"
 
 #ifndef INC_STM32F303XX_H_
 
@@ -28,7 +32,6 @@
 // ARM Cortex Mx Processor Priority Register Address Calculation
 #define NVIC_PR_BASE_ADDR 		((__vo uint32_t *)0xE000E400)
 #define NO_PR_BITS_IMPLEMENTED 	4
-
 
 #define INC_STM32F303XX_H_
 
@@ -67,81 +70,95 @@
 
 // periferal register definition structure
 typedef struct {
-	__vo uint32_t MODER;				// GPIO port mode register
-	__vo uint32_t OTYPER;				// GPIO port output type register
-	__vo uint32_t OSPEEDR; 				// GPIO port output speed register
-	__vo uint32_t PUPDR;				// GPIO port pull-up/pull-down register
-	__vo uint32_t IDR;					// GPIO port input data register
-	__vo uint32_t ODR;					// GPIO port output data register
-	__vo uint32_t BSRR;					// GPIO port bit set/reset register
-	__vo uint32_t LCKR;					// GPIO port configuration lock register
-	__vo uint32_t AFR[2];				// GPIO alternate function [0] - low, [1] - high register
-	__vo uint32_t BRR;					// GPIO port bit reset register
+    __vo uint32_t MODER;				// GPIO port mode register
+    __vo uint32_t OTYPER;				// GPIO port output type register
+    __vo uint32_t OSPEEDR; 				// GPIO port output speed register
+    __vo uint32_t PUPDR;				// GPIO port pull-up/pull-down register
+    __vo uint32_t IDR;					// GPIO port input data register
+    __vo uint32_t ODR;					// GPIO port output data register
+    __vo uint32_t BSRR;					// GPIO port bit set/reset register
+    __vo uint32_t LCKR;					// GPIO port configuration lock register
+    __vo uint32_t AFR[2];				// GPIO alternate function [0] - low, [1] - high register
+    __vo uint32_t BRR;					// GPIO port bit reset register
 } GPIO_RegDef_t;
 
 typedef struct {
-	__vo uint32_t CR;
-	__vo uint32_t CFGR;
-	__vo uint32_t CIR;
-	__vo uint32_t APB2RSTR;
-	__vo uint32_t APB1RSTR;
-	__vo uint32_t AHBENR;
-	__vo uint32_t APB2ENR;
-	__vo uint32_t APB1ENR;
-	__vo uint32_t BDCR;
-	__vo uint32_t CSR;
-	__vo uint32_t AHBRSTR;
-	__vo uint32_t CFGR2;
-	__vo uint32_t CFGR3;
+    __vo uint32_t CR;
+    __vo uint32_t CFGR;
+    __vo uint32_t CIR;
+    __vo uint32_t APB2RSTR;
+    __vo uint32_t APB1RSTR;
+    __vo uint32_t AHBENR;
+    __vo uint32_t APB2ENR;
+    __vo uint32_t APB1ENR;
+    __vo uint32_t BDCR;
+    __vo uint32_t CSR;
+    __vo uint32_t AHBRSTR;
+    __vo uint32_t CFGR2;
+    __vo uint32_t CFGR3;
 } RCC_RegDef_t;
 
 typedef struct {
-	__vo uint32_t IMR1;
-	__vo uint32_t EMR1;
-	__vo uint32_t RTSR1;
-	__vo uint32_t FTSR1;
-	__vo uint32_t SWIER1;
-	__vo uint32_t PR1;
-	__vo uint32_t IMR2;
-	__vo uint32_t EMR2;
-	__vo uint32_t RTSR2;
-	__vo uint32_t FTSR2;
-	__vo uint32_t SWIER2;
-	__vo uint32_t PR2;
+    __vo uint32_t IMR1;
+    __vo uint32_t EMR1;
+    __vo uint32_t RTSR1;
+    __vo uint32_t FTSR1;
+    __vo uint32_t SWIER1;
+    __vo uint32_t PR1;
+    __vo uint32_t IMR2;
+    __vo uint32_t EMR2;
+    __vo uint32_t RTSR2;
+    __vo uint32_t FTSR2;
+    __vo uint32_t SWIER2;
+    __vo uint32_t PR2;
 } EXTI_RegDef_t;
 
 typedef struct {
-	__vo uint32_t RCR;
-	__vo uint32_t EXTICR[4];
-	__vo uint32_t CFGR[3];
+    __vo uint32_t RCR;
+    __vo uint32_t EXTICR[4];
+    __vo uint32_t CFGR[3];
 } SYSCFG_RegDef_t;
 
 typedef struct {
-	__vo uint32_t CR1;
-	__vo uint32_t CR2;
-	__vo uint32_t SR;
-	__vo uint32_t DR;
-	__vo uint32_t CRCPR;
-	__vo uint32_t RXCRCR;
-	__vo uint32_t TXCRCR;
-	__vo uint32_t I2SCFGR;
-	__vo uint32_t I2SPR;
+    __vo uint32_t CR1;
+    __vo uint32_t CR2;
+    __vo uint32_t SR;
+    __vo uint32_t DR;
+    __vo uint32_t CRCPR;
+    __vo uint32_t RXCRCR;
+    __vo uint32_t TXCRCR;
+    __vo uint32_t I2SCFGR;
+    __vo uint32_t I2SPR;
 } SPI_RegDef_t;
 
 
 typedef struct {
-	__vo uint32_t CR1;
-	__vo uint32_t CR2;
-	__vo uint32_t OAR1;
-	__vo uint32_t OAR2;
-	__vo uint32_t TIMINGR;
-	__vo uint32_t TIMEOUTR;
-	__vo uint32_t ISR;
-	__vo uint32_t ICR;
-	__vo uint32_t PECR;
-	__vo uint32_t RXDR;
-	__vo uint32_t TXDR;
+    __vo uint32_t CR1;
+    __vo uint32_t CR2;
+    __vo uint32_t OAR1;
+    __vo uint32_t OAR2;
+    __vo uint32_t TIMINGR;
+    __vo uint32_t TIMEOUTR;
+    __vo uint32_t ISR;
+    __vo uint32_t ICR;
+    __vo uint32_t PECR;
+    __vo uint32_t RXDR;
+    __vo uint32_t TXDR;
 } I2C_RegDef_t;
+
+typedef struct {
+    __vo uint32_t CR1;
+    __vo uint32_t CR2;
+    __vo uint32_t CR3;
+    __vo uint32_t BRR;
+    __vo uint32_t GTPR;
+    __vo uint32_t RTOR;
+    __vo uint32_t RQR;
+    __vo uint32_t ISR;
+    __vo uint32_t ICR;
+    __vo uint32_t RDR;
+    __vo uint32_t TDR;
+} USART_RegDef_t;
 
 
 #define GPIOA	((GPIO_RegDef_t*)GPIOA_BASEADDR)
@@ -153,6 +170,8 @@ typedef struct {
 
 #define I2C1	((I2C_RegDef_t*)I2C1_BASEADDR)
 #define I2C2	((I2C_RegDef_t*)I2C2_BASEADDR)
+
+#define USART1  ((USART_RegDef_t*)USART1_BASEADDR)
 
 #define RCC			((RCC_RegDef_t*)RCC_BASEADDR)
 #define EXTI 			((EXTI_RegDef_t*)EXTI_BASEADDR)
@@ -221,11 +240,11 @@ typedef struct {
 #define FLAG_SET			SET
 
 #define GPIO_BASEADDR_TO_CODE(x)		(x == GPIOA) ? 0 :\
-										(x == GPIOB) ? 1 :\
-										(x == GPIOC) ? 2 :\
-										(x == GPIOD) ? 3 :\
-										(x == GPIOE) ? 4 :\
-										(x == GPIOF) ? 5 : 0
+                                        (x == GPIOB) ? 1 :\
+                                        (x == GPIOC) ? 2 :\
+                                        (x == GPIOD) ? 3 :\
+                                        (x == GPIOE) ? 4 :\
+                                        (x == GPIOF) ? 5 : 0
 
 #define IRQ_NO_EXTI0			6
 #define IRQ_NO_EXTI1			7
@@ -289,4 +308,29 @@ typedef struct {
 #define I2C_TIMINGR_SCLDEL	20
 #define I2C_TIMINGR_PRESC		28
 
+#define RCC_APB2_USART1RST      14
+
+
+#define USART_CR1_UE       0
+#define USART_CR1_RE       2
+#define USART_CR1_TE       3
+#define USART_CR1_EXNEIE   5
+#define USART_CR1_TCIE     6
+#define USART_CR1_TXEIE    7
+#define USART_CR1_PCE      8
+#define USART_CR1_PS       9
+#define USART_CR1_OVER8    15
+#define USART_CR1_M1       28
+
+#define USART_CR2_STOP     12
+
+#define USART_CR3_CTSE     9
+#define USART_CR3_RTSE     8
+
+#define USART_ISR_RXNE    5
+#define USART_ISR_TC      6
+#define USART_ISR_TXE     7
+
 #endif /* INC_STM32F303XX_H_ */
+
+#pragma clang diagnostic pop

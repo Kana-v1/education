@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="mcu1" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\education\embedded\c\udemy\MCU1_CLion\cmake-build-debug\MCU1_CLion.bin" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug" />
+    </exec>
+  </tool>
+</toolSet>

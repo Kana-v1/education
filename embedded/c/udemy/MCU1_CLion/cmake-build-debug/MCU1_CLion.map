@@ -218,8 +218,6 @@ Discarded input sections
                 0x00000000        0xa CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .text.I2C_GenerateStop
                 0x00000000        0xa CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .text.RCC_GetPLLOutputClock
-                0x00000000        0x8 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .text.I2C_CLK  0x00000000       0x78 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .text.I2C_PeriClockControl
                 0x00000000       0x5c CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
@@ -237,22 +235,88 @@ Discarded input sections
                 0x00000000       0xc4 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .text.I2C_IRQPriorityConfig
                 0x00000000       0x20 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .data.AHB_PreScaler
+ .data.I2C_AHB_PreScaler
                 0x00000000       0x10 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .data.APB1_PreScaler
+ .data.I2C_APB1_PreScaler
                 0x00000000       0x10 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .debug_info    0x00000000      0x6f9 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .debug_abbrev  0x00000000      0x18f CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+ .debug_info    0x00000000      0x6f3 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+ .debug_abbrev  0x00000000      0x16e CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .debug_loc     0x00000000      0x51f CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .debug_aranges
-                0x00000000       0x80 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .debug_ranges  0x00000000       0x70 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .debug_line    0x00000000      0x55e CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .debug_str     0x00000000      0x4d5 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+                0x00000000       0x78 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+ .debug_ranges  0x00000000       0x68 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+ .debug_line    0x00000000      0x562 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+ .debug_str     0x00000000      0x4dd CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .comment       0x00000000       0x4a CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
- .debug_frame   0x00000000       0xf4 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+ .debug_frame   0x00000000       0xe4 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
  .ARM.attributes
                 0x00000000       0x2e CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+ .text          0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .data          0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .text.RCC_GetPCLK2Value
+                0x00000000       0x64 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .text.RCC_GetPLLOutputClock
+                0x00000000        0x4 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .text.RCC_GetPCLK1Value
+                0x00000000       0x74 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .data.AHB_PreScaler
+                0x00000000       0x10 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .data.APB1_PreScaler
+                0x00000000        0x4 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_info    0x00000000      0x303 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_abbrev  0x00000000      0x11f CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_loc     0x00000000      0x228 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_aranges
+                0x00000000       0x30 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_ranges  0x00000000       0x20 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_line    0x00000000      0x294 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_str     0x00000000      0x30f CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .debug_frame   0x00000000       0x48 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+ .text          0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .data          0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_DeInit
+                0x00000000       0x1c CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_PeriClockControl
+                0x00000000       0x34 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_Init
+                0x00000000       0x76 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_PeripheralControl
+                0x00000000        0x8 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_GetFlagStatus
+                0x00000000        0xe CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_ClearFlag
+                0x00000000        0xa CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_IRQInterruptConfig
+                0x00000000       0xc4 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_IRQPriorityConfig
+                0x00000000       0x20 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_SendData
+                0x00000000       0x50 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_ReceiveData
+                0x00000000       0x56 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_SendDataIT
+                0x00000000       0x2a CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_ReceiveDataIT
+                0x00000000       0x20 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .text.USART_SetBaudRate
+                0x00000000       0x44 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_info    0x00000000      0x7d7 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_abbrev  0x00000000      0x1f4 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_loc     0x00000000      0x6b2 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_aranges
+                0x00000000       0x80 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_ranges  0x00000000       0x70 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_line    0x00000000      0x6ec CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_str     0x00000000      0x51a CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .debug_frame   0x00000000      0x114 CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
  .text          0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
  .data          0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
  .bss           0x00000000        0x0 CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
@@ -1341,6 +1405,8 @@ LOAD CMakeFiles/MCU1_CLion.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
 LOAD CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj
 LOAD CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj
 LOAD CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj
+LOAD CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj
+LOAD CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj
 LOAD CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
 LOAD CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
 LOAD CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj

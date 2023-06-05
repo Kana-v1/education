@@ -36,12 +36,8 @@ static void I2C_GenerateStop(I2C_RegDef_t *pI2Cx) {
    pI2Cx->CR1 |= (1 << I2C_CR2_STOP);
 }
 
-uint16_t AHB_PreScaler[8] = { 2, 4, 8, 16, 64, 128, 256, 512 };
-uint16_t APB1_PreScaler[8] = { 2, 4, 8, 16 };
-
-uint32_t RCC_GetPLLOutputClock(void) {
-	return 16000000;
-}
+uint16_t I2C_AHB_PreScaler[8] = { 2, 4, 8, 16, 64, 128, 256, 512 };
+uint16_t I2C_APB1_PreScaler[8] = { 2, 4, 8, 16 };
 
 // stm32f303 I2C is clocked by an independent clock source which allows to the I2C to operate
 // independently from the PCLK frequency
@@ -68,7 +64,7 @@ uint32_t I2C_CLK(void) {
 	if (temp < 0b1000) {
 		ahbp = 1;
 	} else {
-		ahbp = AHB_PreScaler[temp - 8]; // 8 == 0n1000
+		ahbp = I2C_AHB_PreScaler[temp - 8]; // 8 == 0n1000
 	}
 
 	// apb1
@@ -77,7 +73,7 @@ uint32_t I2C_CLK(void) {
 	if (temp < 0b100) {
 		apb1p = 1;
 	} else {
-		apb1p = APB1_PreScaler[temp - 4]; // 4 == 0n100
+		apb1p = I2C_APB1_PreScaler[temp - 4]; // 4 == 0n100
 	}
 
 	pclk1 = systemClk / ahbp / apb1p;
