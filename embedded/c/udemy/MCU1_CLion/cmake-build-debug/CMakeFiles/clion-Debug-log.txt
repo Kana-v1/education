@@ -1,0 +1,5 @@
+/snap/clion/237/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/237/bin/ninja/linux/x64/ninja -G Ninja -S /home/kana/Projects/education/embedded/c/udemy/MCU1_CLion -B /home/kana/Projects/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kana/Projects/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug

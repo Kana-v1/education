@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="postgres dev" read-only="true" uuid="ec145f38-9a7c-4bed-a405-07f73e8761ef">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://fync-catalog-d-db-postgresql-0001.cxkk28a7mz1o.us-east-1.rds.amazonaws.com:5432/fync</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres local" uuid="cce67d01-6ee3-4940-99d9-029808c2519a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="supertoken local" uuid="5f615dde-d6ba-46cb-a64d-062c421009fe">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://eu-west-1-dev-1.cluster-cpdrotbp9svu.eu-west-1.rds.amazonaws.com:5432/db_5a64eb8265fa16e51bb1e3c8273dfdf1</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres prod" read-only="true" uuid="36eb2ed1-18f1-48f7-b584-cf693702b79e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://fync-catalog-d-db-postgresql-0001.cxkk28a7mz1o.us-east-1.rds.amazonaws.com:5432/fync_prod</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

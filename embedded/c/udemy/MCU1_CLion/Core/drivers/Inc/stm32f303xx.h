@@ -8,6 +8,7 @@
  */
 #include <stdint.h>
 #include <stddef.h>
+#include <string.h>
 #include "stm32f303xx_gpio_driver.h"
 #include "stm32f303xx_spi_driver.h"
 #include "stm32f303xx_i2c_driver.h"
@@ -251,12 +252,15 @@ typedef struct {
 #define IRQ_NO_EXTI2			8
 #define IRQ_NO_EXTI3			9
 #define IRQ_NO_EXTI4			10
-#define IRQ_NO_EXTI9_5		23
+#define IRQ_NO_EXTI9_5	    	23
 #define IRQ_NO_EXTI15_10		40
 
 #define IRQ_NO_SPI1	35
 #define IRQ_NO_SPI2	36
 #define IRQ_NO_SPI3	51
+
+
+#define IRQ_NO_USART1	37
 
 #define NVIC_IRQ_PRIO0		0
 #define NVIC_IRQ_PRIO12		12
@@ -314,7 +318,8 @@ typedef struct {
 #define USART_CR1_UE       0
 #define USART_CR1_RE       2
 #define USART_CR1_TE       3
-#define USART_CR1_EXNEIE   5
+#define USART_CR1_IDLEIE   4
+#define USART_CR1_RXNEIE   5
 #define USART_CR1_TCIE     6
 #define USART_CR1_TXEIE    7
 #define USART_CR1_PCE      8
@@ -322,14 +327,24 @@ typedef struct {
 #define USART_CR1_OVER8    15
 #define USART_CR1_M1       28
 
+
 #define USART_CR2_STOP     12
+#define USART_CR2_LINEN    14
 
-#define USART_CR3_CTSE     9
+#define USART_CR3_EIE      0
 #define USART_CR3_RTSE     8
+#define USART_CR3_CTSE     9
+#define USART_CR3_CTSIE    10
 
-#define USART_ISR_RXNE    5
-#define USART_ISR_TC      6
-#define USART_ISR_TXE     7
+#define USART_ISR_FE      (1 << 1)
+#define USART_ISR_NE      (1 << 2)
+#define USART_ISR_ORE     (1 << 3)
+#define USART_ISR_IDLE    (1 << 4)
+#define USART_ISR_RXNE    (1 << 5)
+#define USART_ISR_TC      (1 << 6)
+#define USART_ISR_TXE     (1 << 7)
+#define USART_ISR_CTS     (1 << 10)
+
 
 #endif /* INC_STM32F303XX_H_ */
 

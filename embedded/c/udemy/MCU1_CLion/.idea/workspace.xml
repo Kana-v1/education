@@ -16,76 +16,130 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug-MinGW" ENABLED="true" GENERATION_DIR="cmake-build-debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" GENERATION_OPTIONS="-G &quot;MinGW Makefiles&quot;" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="cmake-build-debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Default" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57ee18d4-56d3-4555-b230-6669dca3440e" name="Changes" comment="add project for CLion ide">
-      <change afterPath="$PROJECT_DIR$/Core/drivers/Inc/stm32f303xx_rcc_driver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/drivers/Inc/stm32f303xx_usart_driver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/drivers/Src/stm32f303xx_rcc_driver.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/drivers/Src/stm32f303xx_usart_driver.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stm32f3discovery.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../buf/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../buf/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../buf/.idea/runConfigurations/OCD_MCU1_CLion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../buf/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../buf/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../buf/stm32f3discovery.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.cdt.core/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.cdt.core/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.cdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.cdt.ui/dialog_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/customTargets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/015_uartx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/016_uartx_interrupt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_buf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_buf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/drivers/Inc/stm32f303xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/drivers/Inc/stm32f303xx.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-61854198ba8fb3ab2aaf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-04T15-03-56-0194.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-MCU1_CLion.elf-Debug-eb3a3a30429019e660d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/drivers/Inc/stm32f303xx_usart_driver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/drivers/Inc/stm32f303xx_usart_driver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/drivers/Src/stm32f303xx_usart_driver.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/drivers/Src/stm32f303xx_usart_driver.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-e8a7be7768c567feddcd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-364940a9491d8e7d4891.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c261da1af55195746fc4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-05T19-33-42-0399.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-MCU1_CLion.elf-Debug-7dc55c3832e9b84a3743.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-964456a97d67484fe88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeASMCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeASMCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/ASM.includecache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/stm32f3xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/stm32f3xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/stm32f3xx_it.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/syscalls.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/sysmem.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/sysmem.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/sysmem.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/system_stm32f3xx.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/system_stm32f3xx.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Src/system_stm32f3xx.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/f303xx_spi_driver.c.obj.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_gpio_driver.c.obj.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/001_led_toggle.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/001_led_toggle.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/002_led_button.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/002_led_button.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/005_button_interrupt.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/005_button_interrupt.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/006spi_tx_testing.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/006spi_tx_testing.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/007spi_tx_only_arduino.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/007spi_tx_only_arduino.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/008spi_cmd_handling.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/008spi_cmd_handling.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/009spi_tx_interrupt_test.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/009spi_tx_interrupt_test.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/010_i2c_master_tx_testing.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/subMains/010_i2c_master_tx_testing.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_i2c_driver.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_rcc_driver.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Core/drivers/Src/stm32f303xx_usart_driver.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MCU1_CLion.elf.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-MinGW-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MCU1_CLion.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../buf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../buf/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,9 +153,9 @@
   <component name="EmbeddedSvdWindowState">
     <option name="columnWidths">
       <list>
-        <option value="212" />
+        <option value="573" />
         <option value="92" />
-        <option value="497" />
+        <option value="909" />
       </list>
     </option>
     <option name="columnOrder">
@@ -119,18 +173,18 @@
     <option name="nodes">
       <map>
         <entry key="stm32f3PeripheralsMap.svd" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:ADC" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:DMA" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:FPU" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:GPIO" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:I2C" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:NVIC" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:SCB" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:SPI" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|g:TIMs" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|g:ADC" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:DMA" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:FPU" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:GPIO" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:I2C" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:NVIC" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:SCB" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:SPI" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|g:TIMs" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|g:USART" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:ADC1" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:ADC1_2" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:ADC1" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|p:ADC1_2" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC1_2|CCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC1_2|CDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC1_2|CSR" value="HC" />
@@ -161,7 +215,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:ADC1|TR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC1|TR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC1|TR3" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:ADC2" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:ADC2" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC2|AWD2CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC2|AWD3CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC2|CALFACT" value="HC" />
@@ -189,8 +243,8 @@
         <entry key="stm32f3PeripheralsMap.svd|p:ADC2|TR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC2|TR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC2|TR3" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:ADC3" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:ADC3_4" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:ADC3" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|p:ADC3_4" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC3_4|CCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC3_4|CDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC3_4|CSR" value="HC" />
@@ -221,7 +275,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:ADC3|TR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC3|TR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC3|TR3" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:ADC4" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:ADC4" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC4|AWD2CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC4|AWD3CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC4|CALFACT" value="HC" />
@@ -249,7 +303,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:ADC4|TR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC4|TR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:ADC4|TR3" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:CAN" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:CAN" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:CAN|BTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:CAN|ESR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:CAN|F0R1" value="HC" />
@@ -339,13 +393,13 @@
         <entry key="stm32f3PeripheralsMap.svd|p:CAN|TI1R" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:CAN|TI2R" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:CAN|TSR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:CRC" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:CRC" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:CRC|CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:CRC|DR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:CRC|IDR" value="HE" />
+        <entry key="stm32f3PeripheralsMap.svd|p:CRC|IDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:CRC|INIT" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:CRC|POL" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:DAC" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:DAC" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:DAC|CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DAC|DHR12L1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DAC|DHR12L2" value="HC" />
@@ -360,12 +414,12 @@
         <entry key="stm32f3PeripheralsMap.svd|p:DAC|DOR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DAC|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DAC|SWTRIGR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:DBGMCU" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:DBGMCU" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:DBGMCU|APB1FZ" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DBGMCU|APB2FZ" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DBGMCU|CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DBGMCU|IDCODE" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:DMA1" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:DMA1" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA1|CCR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA1|CCR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA1|CCR3" value="HC" />
@@ -396,7 +450,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:DMA1|CPAR7" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA1|IFCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA1|ISR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:DMA2" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:DMA2" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA2|CCR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA2|CCR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA2|CCR3" value="HC" />
@@ -427,7 +481,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:DMA2|CPAR7" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA2|IFCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:DMA2|ISR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:EXTI" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:EXTI" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:EXTI|EMR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:EXTI|EMR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:EXTI|FTSR1" value="HC" />
@@ -440,7 +494,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:EXTI|RTSR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:EXTI|SWIER1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:EXTI|SWIER2" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:FMC" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:FMC" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:FMC|BCR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:FMC|BCR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:FMC|BCR3" value="HC" />
@@ -468,13 +522,13 @@
         <entry key="stm32f3PeripheralsMap.svd|p:FMC|SR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:FMC|SR3" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:FMC|SR4" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:FPU" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:FPU_CPACR" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:FPU" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|p:FPU_CPACR" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:FPU_CPACR|CPACR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:FPU|FPCAR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:FPU|FPCCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:FPU|FPSCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:Flash" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:Flash" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:Flash|ACR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:Flash|AR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:Flash|CR" value="HC" />
@@ -483,7 +537,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:Flash|OPTKEYR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:Flash|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:Flash|WRPR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOA" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOA" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOA|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOA|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOA|BRR" value="HC" />
@@ -495,7 +549,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOA|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOA|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOA|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOB" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOB" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOB|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOB|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOB|BRR" value="HC" />
@@ -507,7 +561,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOB|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOB|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOB|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOC" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOC" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOC|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOC|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOC|BRR" value="HC" />
@@ -519,7 +573,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOC|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOC|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOC|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOD" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOD" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOD|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOD|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOD|BRR" value="HC" />
@@ -531,7 +585,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOD|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOD|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOD|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOE" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOE" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOE|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOE|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOE|BRR" value="HC" />
@@ -543,7 +597,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOE|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOE|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOE|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOF" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOF" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOF|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOF|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOF|BRR" value="HC" />
@@ -555,7 +609,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOF|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOF|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOF|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOG" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOG" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOG|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOG|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOG|BRR" value="HC" />
@@ -567,7 +621,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOG|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOG|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOG|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:GPIOH" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:GPIOH" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOH|AFRH" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOH|AFRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOH|BRR" value="HC" />
@@ -579,7 +633,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOH|OSPEEDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOH|OTYPER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:GPIOH|PUPDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:I2C1" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:I2C1" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C1|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C1|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C1|ICR" value="HC" />
@@ -591,7 +645,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:I2C1|TIMEOUTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C1|TIMINGR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C1|TXDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:I2C2" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:I2C2" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C2|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C2|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C2|ICR" value="HC" />
@@ -603,7 +657,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:I2C2|TIMEOUTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C2|TIMINGR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C2|TXDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:I2C3" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:I2C3" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C3|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C3|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C3|ICR" value="HC" />
@@ -615,7 +669,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:I2C3|TIMEOUTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C3|TIMINGR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2C3|TXDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext|CRCPR" value="HC" />
@@ -625,7 +679,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext|RXCRCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S2ext|TXCRCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext|CRCPR" value="HC" />
@@ -635,20 +689,20 @@
         <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext|RXCRCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:I2S3ext|TXCRCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:IWDG" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:IWDG" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:IWDG|KR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:IWDG|PR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:IWDG|RLR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:IWDG|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:IWDG|WINR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:MPU" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:MPU" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:MPU|MPU_CTRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:MPU|MPU_RASR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:MPU|MPU_RBAR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:MPU|MPU_RNR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:MPU|MPU_TYPER" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:NVIC" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:NVIC_STIR" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:NVIC" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|p:NVIC_STIR" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:NVIC_STIR|STIR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:NVIC|IABR0" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:NVIC|IABR1" value="HC" />
@@ -686,24 +740,24 @@
         <entry key="stm32f3PeripheralsMap.svd|p:NVIC|ISPR0" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:NVIC|ISPR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:NVIC|ISPR2" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:PWR" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:PWR" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:PWR|CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:PWR|CSR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC" value="-E" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|AHBENR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|AHBRSTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|APB1ENR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:RCC|APB1RSTR" value="HC" />
+        <entry key="stm32f3PeripheralsMap.svd|p:RCC|APB1RSTR" value="HE" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|APB2ENR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|APB2RSTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|BDCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|CFGR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|CFGR2" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:RCC|CFGR3" value="HC" />
+        <entry key="stm32f3PeripheralsMap.svd|p:RCC|CFGR3" value="HE" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|CIR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:RCC|CR" value="HC" />
+        <entry key="stm32f3PeripheralsMap.svd|p:RCC|CR" value="HE" />
         <entry key="stm32f3PeripheralsMap.svd|p:RCC|CSR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:RTC" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:RTC" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:RTC|ALRMAR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RTC|ALRMASSR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RTC|ALRMBR" value="HC" />
@@ -754,8 +808,8 @@
         <entry key="stm32f3PeripheralsMap.svd|p:RTC|TSTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RTC|WPR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:RTC|WUTR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:SCB" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:SCB_ACTRL" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:SCB" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|p:SCB_ACTRL" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:SCB_ACTRL|ACTRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SCB|AFSR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SCB|AIRCR" value="HC" />
@@ -772,7 +826,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:SCB|SHPR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SCB|SHPR3" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SCB|VTOR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:SPI1" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:SPI1" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI1|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI1|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI1|CRCPR" value="HC" />
@@ -782,7 +836,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:SPI1|RXCRCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI1|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI1|TXCRCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:SPI2" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:SPI2" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI2|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI2|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI2|CRCPR" value="HC" />
@@ -792,7 +846,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:SPI2|RXCRCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI2|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI2|TXCRCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:SPI3" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:SPI3" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI3|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI3|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI3|CRCPR" value="HC" />
@@ -802,7 +856,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:SPI3|RXCRCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI3|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI3|TXCRCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:SPI4" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:SPI4" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI4|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI4|CR2" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI4|CRCPR" value="HC" />
@@ -812,12 +866,12 @@
         <entry key="stm32f3PeripheralsMap.svd|p:SPI4|RXCRCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI4|SR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SPI4|TXCRCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:STK" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:STK" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:STK|CALIB" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:STK|CTRL" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:STK|LOAD" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:STK|VAL" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP|COMP1_CSR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP|COMP2_CSR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP|COMP3_CSR" value="HC" />
@@ -836,8 +890,8 @@
         <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP|SYSCFG_EXTICR3" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP|SYSCFG_EXTICR4" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:SYSCFG_COMP_OPAMP|SYSCFG_RCR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM1" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM15" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM1" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM15" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM15|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM15|BDTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM15|CCER" value="HC" />
@@ -856,7 +910,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM15|RCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM15|SMCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM15|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM16" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM16" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM16|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM16|BDTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM16|CCER" value="HC" />
@@ -874,7 +928,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM16|PSC" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM16|RCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM16|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM17" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM17" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM17|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM17|BDTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM17|CCER" value="HC" />
@@ -917,8 +971,8 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM1|RCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM1|SMCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM1|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM2" value="-E" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM20" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM2" value="-C" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM20" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM20|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM20|BDTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM20|CCER" value="HC" />
@@ -965,7 +1019,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM2|PSC" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM2|SMCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM2|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM3" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM3" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM3|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM3|CCER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM3|CCMR1_Input" value="HC" />
@@ -986,7 +1040,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM3|PSC" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM3|SMCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM3|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM4" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM4" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM4|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM4|CCER" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM4|CCMR1_Input" value="HC" />
@@ -1007,7 +1061,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM4|PSC" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM4|SMCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM4|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM6" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM6" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM6|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM6|CNT" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM6|CR1" value="HC" />
@@ -1016,7 +1070,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM6|EGR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM6|PSC" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM6|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM7" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM7" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM7|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM7|CNT" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM7|CR1" value="HC" />
@@ -1025,7 +1079,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM7|EGR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM7|PSC" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM7|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TIM8" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TIM8" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM8|ARR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM8|BDTR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM8|CCER" value="HC" />
@@ -1052,7 +1106,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TIM8|RCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM8|SMCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TIM8|SR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:TSC" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:TSC" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:TSC|CR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TSC|ICR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TSC|IER" value="HC" />
@@ -1070,7 +1124,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:TSC|IOHCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TSC|IOSCR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:TSC|ISR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:UART4" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:UART4" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART4|BRR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART4|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART4|CR2" value="HC" />
@@ -1082,7 +1136,7 @@
         <entry key="stm32f3PeripheralsMap.svd|p:UART4|RQR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART4|RTOR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART4|TDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:UART5" value="-E" />
+        <entry key="stm32f3PeripheralsMap.svd|p:UART5" value="-C" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART5|BRR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART5|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:UART5|CR2" value="HC" />
@@ -1101,19 +1155,19 @@
         <entry key="stm32f3PeripheralsMap.svd|p:USART1|CR3" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART1|GTPR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART1|ICR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:USART1|ISR" value="HC" />
+        <entry key="stm32f3PeripheralsMap.svd|p:USART1|ISR" value="HE" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART1|RDR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:USART1|RQR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:USART1|RTOR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:USART1|TDR" value="HC" />
+        <entry key="stm32f3PeripheralsMap.svd|p:USART1|RQR" value="HE" />
+        <entry key="stm32f3PeripheralsMap.svd|p:USART1|RTOR" value="HE" />
+        <entry key="stm32f3PeripheralsMap.svd|p:USART1|TDR" value="HE" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2" value="-E" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|BRR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|CR1" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|CR2" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:USART2|CR3" value="HC" />
+        <entry key="stm32f3PeripheralsMap.svd|p:USART2|CR3" value="HE" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|GTPR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|ICR" value="HC" />
-        <entry key="stm32f3PeripheralsMap.svd|p:USART2|ISR" value="HC" />
+        <entry key="stm32f3PeripheralsMap.svd|p:USART2|ISR" value="HE" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|RDR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|RQR" value="HC" />
         <entry key="stm32f3PeripheralsMap.svd|p:USART2|RTOR" value="HC" />
@@ -1151,7 +1205,7 @@
       </map>
     </option>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -1177,24 +1231,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/education/embedded/c/udemy/MCU1_CLion/cmake-build-debug/MCU1_CLion.bin",
+    "last_opened_file_path": "/home/kana/Projects/education/embedded/c/udemy/MCU1_CLion/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="C:\education\embedded\c\udemy\MCU1_CLion\Core\subMains" />
       <recent name="C:\education\embedded\c\udemy\MCU1_CLion\Core" />
     </key>
@@ -1203,12 +1265,7 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD MCU1_CLion">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MCU1_CLion.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MCU1_CLion" TARGET_NAME="MCU1_CLion.elf" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MCU1_CLion" RUN_TARGET_NAME="MCU1_CLion.elf">
+    <configuration name="MCU1_CLion.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MCU1_CLion" TARGET_NAME="MCU1_CLion.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MCU1_CLion" RUN_TARGET_NAME="MCU1_CLion.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1236,6 +1293,10 @@
       <workItem from="1685893212898" duration="39000" />
       <workItem from="1685893257797" duration="6801000" />
       <workItem from="1685953379988" duration="4397000" />
+      <workItem from="1686035822525" duration="101000" />
+      <workItem from="1686035927984" duration="32727000" />
+      <workItem from="1686383465339" duration="1515000" />
+      <workItem from="1686404427568" duration="973000" />
     </task>
     <servers />
   </component>
@@ -1251,6 +1312,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project for CLion ide" />
     <option name="LAST_COMMIT_MESSAGE" value="add project for CLion ide" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c</url>
+          <line>445</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="pUSARTx-&gt;ISR &amp; (1 &lt;&lt; 7)" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

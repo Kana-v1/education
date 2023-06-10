@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -20,12 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e63c646-fcf3-419e-b783-c5e44bee76b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MCU1_CLion/stm32f3discovery.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1_CLion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1_CLion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MCU1_CLion/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../MCU1_CLion/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6e63c646-fcf3-419e-b783-c5e44bee76b8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,16 +51,12 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/kana/Projects/education/embedded/c/udemy/MCU1_CLion",
     "settings.editor.selected.configurable": "com.jetbrains.cidr.embedded.config",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD MCU1_CLion">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="buf.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="buf" TARGET_NAME="buf.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="buf" RUN_TARGET_NAME="buf.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
